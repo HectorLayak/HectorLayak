@@ -1,0 +1,90 @@
+name: Temporary Strata Fleet public inputs
+on:
+  push:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    env:
+      STRATA_SHA: '30ec18ec7094550fcc594fd948220d511d80464e'
+      NODE_VERSION: '22.16.0'
+    steps:
+      - name: Fetch exact Strata source
+        shell: bash
+        run: |
+          set -Eeuo pipefail
+          S="$RUNNER_TEMP/Strata"
+          git init -q "$S"
+          git -C "$S" remote add origin https://github.com/Niko1221/Strata.git
+          git -C "$S" fetch --depth=1 origin "$STRATA_SHA"
+          git -C "$S" checkout --detach FETCH_HEAD
+          test "$(git -C "$S" rev-parse HEAD)" = "$STRATA_SHA"
+          printf '%s\n' "$STRATA_SHA" > "$S/UPSTREAM-STRATA-COMMIT.txt"
+          rm -rf "$S/.git"
+          cd "$RUNNER_TEMP"
+          zip -q -r strata-source.zip Strata
+          unzip -t strata-source.zip > strata-source-zip-test.txt
+      - name: Bundle exact SSH dependency
+        shell: bash
+        run: |
+          set -Eeuo pipefail
+          R="$RUNNER_TEMP/runtime"
+          mkdir -p "$R/npm"
+          cd "$R/npm"
+          npm init -y >/dev/null
+          npm install ssh2@1.17.0 --save-exact --omit=dev --no-audit --no-fund
+          npm ls --all > npm-tree.txt
+      - name: Bundle portable Node runtimes
+        shell: bash
+        run: |
+          set -Eeuo pipefail
+          R="$RUNNER_TEMP/runtime"
+          mkdir -p "$R/windows" "$R/linux" "$RUNNER_TEMP/node-dist"
+          cd "$RUNNER_TEMP/node-dist"
+          BASE="https://nodejs.org/dist/v$NODE_VERSION"
+          curl -fsSLO "$BASE/SHASUMS256.txt"
+          W="node-v$NODE_VERSION-win-x64.zip"
+          L="node-v$NODE_VERSION-linux-x64.tar.xz"
+          curl -fsSLO "$BASE/$W"
+          curl -fsSLO "$BASE/$L"
+          grep "  $W$" SHASUMS256.txt | sha256sum -c -
+          grep "  $L$" SHASUMS256.txt | sha256sum -c -
+          unzip -q "$W"
+          tar -xJf "$L"
+          cp "node-v$NODE_VERSION-win-x64/node.exe" "$R/windows/node.exe"
+          cp "node-v$NODE_VERSION-linux-x64/bin/node" "$R/linux/node"
+          chmod +x "$R/linux/node"
+          cp SHASUMS256.txt "$R/NODE-SHASUMS256.txt"
+          "$R/linux/node" --version
+      - name: Evidence and hashes
+        shell: bash
+        run: |
+          set -Eeuo pipefail
+          O="$RUNNER_TEMP/out"; mkdir -p "$O"
+          cp "$RUNNER_TEMP/strata-source.zip" "$O/"
+          cp "$RUNNER_TEMP/strata-source-zip-test.txt" "$O/"
+          cp -a "$RUNNER_TEMP/runtime" "$O/"
+          python3 - "$O/BUILD-EVIDENCE.json" "$STRATA_SHA" "$NODE_VERSION" <<'PY'
+          import datetime,json,sys
+          json.dump({
+            "schema":"strata-fleet-public-inputs/1",
+            "createdAt":datetime.datetime.now(datetime.timezone.utc).isoformat(),
+            "strataCommit":sys.argv[2],
+            "nodeVersion":sys.argv[3],
+            "ssh2Version":"1.17.0",
+            "strataSourceArchive":"verified",
+            "nodeDownloads":"verified against upstream SHASUMS256",
+            "containsPrivateHector":False,
+            "containsSecrets":False
+          },open(sys.argv[1],"w"),indent=2)
+          PY
+          (cd "$O" && find . -type f -not -name SHA256SUMS -print0 | sort -z | xargs -0 sha256sum > SHA256SUMS)
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: strata-fleet-public-inputs
+          path: ${{ runner.temp }}/out/
+          retention-days: 1
+          if-no-files-found: error
