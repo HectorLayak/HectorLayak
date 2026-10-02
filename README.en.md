@@ -9,7 +9,7 @@
 
 I build software where **the model, the rules and the experience need to work together**: business platforms, code understanding tools, languages, networked games and simulations. My work spans low-level execution through to the interface, with contracts and state consistency as the common thread.
 
-**C# / .NET · Rust · TypeScript · C / C++**  
+**C# / .NET · Rust · TypeScript · C / C++**<br>
 Fusion RPC, React, Vue, Unity, Unreal, WebGPU, LLVM / WebAssembly, Linux and self-hosted infrastructure.
 
 ## Six projects to enter the workshop

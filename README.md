@@ -9,7 +9,7 @@
 
 Je construis des logiciels où **le modèle, les règles et l'expérience doivent tenir ensemble** : plateformes métier, outils pour comprendre le code, langages, jeux en réseau et simulations. Mon terrain va de l'exécution bas niveau à l'interface, avec les contrats et la cohérence de l'état comme fil conducteur.
 
-**C# / .NET · Rust · TypeScript · C / C++**  
+**C# / .NET · Rust · TypeScript · C / C++**<br>
 Fusion RPC, React, Vue, Unity, Unreal, WebGPU, LLVM / WebAssembly, Linux et infrastructure auto-hébergée.
 
 ## Six projets pour entrer dans l'atelier
