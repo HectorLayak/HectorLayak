@@ -1,6 +1,6 @@
 <picture>
   <source media="(prefers-color-scheme: light)" srcset="assets/cover-light.svg">
-  <img src="assets/cover-dark.svg" alt="Florian Sola — Des systèmes. Des produits. Des mondes." width="100%">
+  <img src="assets/cover-dark.svg" alt="HectorLayak — Des systèmes. Des produits. Des mondes." width="100%">
 </picture>
 
 <p align="center">
@@ -11,7 +11,6 @@
 <p align="center">
   <a href="https://floriansola.fr"><strong>Portfolio</strong></a> &nbsp;·&nbsp;
   <a href="https://floriansola.fr/cv">Parcours & CV</a> &nbsp;·&nbsp;
-  <a href="https://www.linkedin.com/in/florian-sola-0b5159185/">LinkedIn</a> &nbsp;·&nbsp;
   <a href="README.en.md">English version ↗</a>
 </p>
 
@@ -96,7 +95,6 @@ Depuis mes premiers projets multijoueurs en 2016, j’ai traversé le logiciel m
 <p align="center">
   <strong>Un produit à créer, un système à repenser, une idée difficile à concrétiser ?</strong><br>
   Parlons architecture, contraintes et prochaines étapes.<br><br>
-  <a href="https://www.linkedin.com/in/florian-sola-0b5159185/"><strong>Échangeons sur LinkedIn ↗</strong></a> &nbsp;·&nbsp;
   <a href="https://floriansola.fr/#contact">Me contacter</a>
 </p>
 

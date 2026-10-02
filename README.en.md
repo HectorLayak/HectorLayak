@@ -1,6 +1,6 @@
 <picture>
   <source media="(prefers-color-scheme: light)" srcset="assets/cover-light-en.svg">
-  <img src="assets/cover-dark-en.svg" alt="Florian Sola — Systems. Products. Worlds." width="100%">
+  <img src="assets/cover-dark-en.svg" alt="HectorLayak — Systems. Products. Worlds." width="100%">
 </picture>
 
 <p align="center">
@@ -11,7 +11,6 @@
 <p align="center">
   <a href="https://floriansola.fr/en"><strong>Portfolio</strong></a> &nbsp;·&nbsp;
   <a href="https://floriansola.fr/en/cv">Background & CV</a> &nbsp;·&nbsp;
-  <a href="https://www.linkedin.com/in/florian-sola-0b5159185/">LinkedIn</a> &nbsp;·&nbsp;
   <a href="README.md">Version française ↗</a>
 </p>
 
@@ -96,7 +95,6 @@ Since my first multiplayer projects in 2016, I have worked across business softw
 <p align="center">
   <strong>A product to build, a system to rethink, a difficult idea to make real?</strong><br>
   Let's talk architecture, constraints and next steps.<br><br>
-  <a href="https://www.linkedin.com/in/florian-sola-0b5159185/"><strong>Connect on LinkedIn ↗</strong></a> &nbsp;·&nbsp;
   <a href="https://floriansola.fr/en#contact">Get in touch</a>
 </p>
 
