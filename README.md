@@ -3,99 +3,148 @@
   <img src="assets/cover-dark.svg" alt="HectorLayak — Des systèmes. Des produits. Des mondes." width="100%">
 </picture>
 
-<p align="center">
-  <strong>Développeur senior C#/.NET · Architecte logiciel · Créateur de produits</strong><br>
-  France · Du logiciel métier aux systèmes temps réel, de l’IA aux mondes simulés.
-</p>
+<p align="center"><strong>Architecte logiciel · Créateur de produits · Bâtisseur de mondes persistants</strong><br>Du code qui comprend. Des systèmes qui se relient. Des mondes qui évoluent.</p>
 
-<p align="center">
-  <a href="https://floriansola.fr"><strong>Portfolio</strong></a> &nbsp;·&nbsp;
-  <a href="https://floriansola.fr/cv">Parcours & CV</a> &nbsp;·&nbsp;
-  <a href="README.en.md">English version ↗</a>
-</p>
+<p align="center"><a href="#atelier">Atelier</a> &nbsp;·&nbsp; <a href="#les-projets">Tous les projets</a> &nbsp;·&nbsp; <a href="https://floriansola.fr/projects">Explorer le portfolio ↗</a> &nbsp;·&nbsp; <a href="README.en.md">English</a></p>
 
 ---
 
-### Construire ce qui relie les choses.
+J’aime le point de rencontre entre **la profondeur des systèmes et l’expérience de ceux qui les utilisent**. Un SaaS multi-tenant, un agent IA qui cherche son contexte, un compilateur, un monde vivant ou un voyage partagé posent les mêmes questions : qui porte les règles, comment l’état reste cohérent, et comment rendre le système compréhensible ?
 
-Un produit devient intéressant quand plusieurs difficultés se rencontrent : des données qui doivent rester cohérentes, des utilisateurs qui collaborent, une IA qui doit comprendre son contexte, un monde qui continue de vivre quand on le quitte.
+Mon atelier relie **C#/.NET, Rust, TypeScript et C/C++** au logiciel métier, au temps réel, à l’IA, aux moteurs de jeu et à l’infrastructure auto-hébergée. Je travaille du moteur à l’interface, puis des tests à la livraison et à l’exploitation.
 
-C’est là que j’aime travailler. **Je relie la profondeur des systèmes à la clarté du produit** : concevoir le moteur, comprendre les règles métier, soigner l’interface et préparer l’exploitation. Mon terrain va de **C#/.NET et du temps réel** à **Rust, l’outillage pour agents et la simulation**.
-
-Depuis mes premiers projets multijoueurs en 2016, j’ai traversé le logiciel métier, les configurateurs, le mobile télécom et le firmware IoT. Aujourd’hui, je développe des SaaS, des outils de développement et des projets de recherche, avec la même attention portée à l’architecture et à l’expérience utilisateur. [Mon parcours →](https://floriansola.fr/cv)
-
-### Une sélection de mon atelier
+### Atelier
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://aindex.floriansola.fr"><img src="assets/aindex.svg" width="100%" alt="AINDEX — contexte et compréhension du code pour les agents IA"></a>
-      <p>Donner aux agents une compréhension persistante du code : graphes de dépendances, contexte pertinent et liens entre changements, tâches et preuves. Un travail sur <strong>ce que l’agent doit savoir pour agir</strong>.</p>
-      <a href="https://aindex.floriansola.fr">Découvrir AINDEX ↗</a>
+      <a href="https://floriansola.fr/projects/aindex"><img src="assets/aindex.svg" width="100%" alt="AINDEX"></a>
+      <p>Compréhension du code, contexte de tâche et supervision des agents.</p>
+      <a href="https://floriansola.fr/projects/aindex">Explorer le projet ↗</a>
     </td>
     <td width="50%" valign="top">
-      <img src="assets/hector.svg" width="100%" alt="HECTOR — langage, compilateur natif et WebAssembly">
-      <p>Explorer un langage et un compilateur pour les humains et les agents, avec des noyaux natifs et WebAssembly. <strong>Continuum</strong> prolonge cette recherche vers l’apprentissage et la navigation.</p>
-      <sub>Recherche en cours · HECTOR & Continuum</sub>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://floriansola.fr/projects/onerp-framework"><img src="assets/onerp.svg" width="100%" alt="OneRP — plateforme SaaS roleplay, Fusion RPC et architecture multi-tenant"></a>
-      <p>Penser le roleplay comme une plateforme : backend .NET, <strong>Fusion RPC</strong>, isolation des instances, modules FiveM et interfaces React. Le métier, l’autorité serveur et le temps réel dans une même architecture.</p>
-      <a href="https://floriansola.fr/projects/onerp-framework">Lire le projet ↗</a>
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://floriansola.fr/projects/salecast"><img src="assets/salecast.svg" width="100%" alt="SaleCast — commerce multicanal, données métier et prévisions"></a>
-      <p>Rapprocher commerce multicanal, synchronisation et prévisions dans un SaaS .NET/Blazor. Autre terrain métier : <strong>StaffingOS</strong>, consacré aux opérations RH, aux validations et aux parcours comptables.</p>
-      <a href="https://floriansola.fr/projects/salecast">Lire le projet ↗</a>
+      <a href="https://floriansola.fr/projects/hector"><img src="assets/hector.svg" width="100%" alt="HECTOR"></a>
+      <p>Langage, compilateur natif et noyaux WebAssembly.</p>
+      <a href="https://floriansola.fr/projects/hector">Explorer le projet ↗</a>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://floriansola.fr/projects/myroadtrip"><img src="assets/roadtripper.svg" width="100%" alt="RoadTripper — voyage collaboratif, cartographie et expérience mobile"></a>
-      <p>Transformer un voyage à plusieurs en un programme partagé : étapes, carte, collaboration et expérience mobile. Du premier <strong>MyRoadTrip</strong> aux nouvelles itérations de RoadTripper, le terrain relie géographie et produit.</p>
-      <a href="https://floriansola.fr/projects/myroadtrip">Lire le projet ↗</a>
+      <a href="https://floriansola.fr/projects/onerp-framework"><img src="assets/onerp.svg" width="100%" alt="OneRP"></a>
+      <p>Une plateforme SaaS roleplay : Fusion RPC, multi-tenant, serveur FiveM et React.</p>
+      <a href="https://floriansola.fr/projects/onerp-framework">Explorer le projet ↗</a>
     </td>
     <td width="50%" valign="top">
-      <a href="https://poisson.floriansola.fr/demo/"><img src="assets/poisson.svg" width="100%" alt="Poisson Engine — simulation écologique et calcul WebGPU dans le navigateur"></a>
-      <p>Faire émerger un écosystème à partir d’agents et de règles : simulation, indexation spatiale et calcul <strong>WebGPU</strong>. Une rencontre entre performance, comportement collectif et rendu navigateur.</p>
-      <a href="https://poisson.floriansola.fr/demo/">Explorer la démo ↗</a> · <a href="https://floriansola.fr/projects/poisson-engine">Architecture ↗</a>
+      <a href="https://floriansola.fr/projects/staffingos"><img src="assets/staffingos.svg" width="100%" alt="StaffingOS"></a>
+      <p>Opérations RH, temps, frais, absences et parcours comptables.</p>
+      <a href="https://floriansola.fr/projects/staffingos">Explorer le projet ↗</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://floriansola.fr/projects/roadtripper-v2"><img src="assets/roadtripper.svg" width="100%" alt="RoadTripper V2"></a>
+      <p>Nouvelle génération : programme commun, carte et parcours mobile.</p>
+      <a href="https://floriansola.fr/projects/roadtripper-v2">Explorer le projet ↗</a>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://floriansola.fr/projects/poisson-engine"><img src="assets/poisson.svg" width="100%" alt="Poisson"></a>
+      <p>Écosystème d’agents, simulation et calcul WebGPU.</p>
+      <a href="https://floriansola.fr/projects/poisson-engine">Explorer le projet ↗</a>
     </td>
   </tr>
 </table>
 
-<sub>Cette sélection rassemble des produits, des missions et de la R&D à des stades différents. Une grande partie du code est privée ; les liens ouvrent les présentations publiques ou les démos disponibles.</sub>
+### La carte de l’atelier
 
-### Le reste du terrain
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="assets/atlas-light.svg">
+  <img src="assets/atlas-dark.svg" alt="Cinq terrains reliés : agents, logiciel métier, mondes, produits mobiles et exploitation." width="100%">
+</picture>
 
-**IA dans le produit** — [PromptVault](https://floriansola.fr/projects/promptvault) pour transformer des prompts en outils d’équipe ; [Matchr](https://floriansola.fr/projects/matchr) pour les candidatures et l’analyse ATS ; [GeopolAI / ModelRisk](https://floriansola.fr/projects/geopolai) pour explorer et comparer les décisions de modèles.
+### Les projets
 
-**Jeux et mondes persistants** — FantasyOnline et son socle partagé Unity/Roblox, SurvivalKingdom sous Unreal, les cartes de REWORLD, la stratégie de MANDATE EARTH, l’écologie de Symbiont et les systèmes roleplay s&box. Des projets en développement où je travaille les règles, les états persistants et les interactions.
+**33 fiches projets**, organisées par terrain. Ouvre un groupe pour parcourir l’atelier, puis une fiche pour son architecture et son périmètre actuel.
 
-**L’infrastructure derrière** — Linux, Docker, Caddy, PostgreSQL, Forgejo et GitHub Actions sur VPS. Je m’intéresse aussi à ce qui fait vivre le logiciel après le commit : déploiements reproductibles, observabilité, sauvegardes et procédures de reprise.
+<details>
+<summary><strong>Moteurs, IA & agents</strong> · 9 projets</summary>
 
-### Ce que j’apporte à un projet
+| Projet | Le terrain | Repère |
+| :--- | :--- | :--- |
+| [AINDEX](https://floriansola.fr/projects/aindex) | Compréhension du code, contexte de tâche et supervision des agents. | Développement |
+| [HECTOR](https://floriansola.fr/projects/hector) | Langage, compilateur natif et noyaux WebAssembly. | Recherche |
+| [Continuum](https://floriansola.fr/projects/continuum) | Apprentissage, navigation et collecte corrective en laboratoire. | Recherche |
+| [PromptVault](https://floriansola.fr/projects/promptvault) | Prompts réutilisables, outils d’équipe et gouvernance IA. | Parcours & réalisation |
+| [Matchr](https://floriansola.fr/projects/matchr) | Dossiers de candidature, analyse ATS et assistance IA. | Parcours & réalisation |
+| [GeopolAI / ModelRisk](https://floriansola.fr/projects/geopolai) | Comparaison de décisions et observation des biais de modèles. | Parcours & réalisation |
+| [AISelector](https://floriansola.fr/projects/ai-selector) | Contrats et adaptateurs de fournisseurs IA en C#. | Prototype |
+| [Vouch](https://floriansola.fr/projects/vouch) | Questionnaires sécurité et réponses RAG reliées à leurs sources. | Parcours & réalisation |
+| [Vision Security Lab](https://floriansola.fr/projects/vision-security-lab) | Vision, comportements d’agents et évaluation contrôlée. | Recherche |
 
-| Terrain | Ma manière d’aborder le problème |
+</details>
+
+<details>
+<summary><strong>Produits métier & collaboration</strong> · 7 projets</summary>
+
+| Projet | Le terrain | Repère |
+| :--- | :--- | :--- |
+| [OneRP](https://floriansola.fr/projects/onerp-framework) | Plateforme SaaS roleplay, Fusion RPC et architecture multi-tenant. | Parcours & réalisation |
+| [SaleCast](https://floriansola.fr/projects/salecast) | Commerce multicanal, synchronisation et prévisions métier. | Parcours & réalisation |
+| [StaffingOS](https://floriansola.fr/projects/staffingos) | Opérations RH, temps, frais, absences et parcours comptables. | Développement |
+| [MyRoadTrip](https://floriansola.fr/projects/myroadtrip) | Première génération : voyages collaboratifs et usages hors-ligne. | Parcours & réalisation |
+| [RoadTripper V2](https://floriansola.fr/projects/roadtripper-v2) | Nouvelle génération : programme commun, carte et parcours mobile. | Développement |
+| [PartyFlow](https://floriansola.fr/projects/partyflow) | Exploration mobile avec Vue, Ionic et Capacitor. | Prototype |
+| [Racine](https://floriansola.fr/projects/racine) | Souvenirs, liens familiaux et espace partagé privé. | Parcours & réalisation |
+
+</details>
+
+<details>
+<summary><strong>Mondes, jeux & simulation</strong> · 12 projets</summary>
+
+| Projet | Le terrain | Repère |
+| :--- | :--- | :--- |
+| [FantasyOnline](https://floriansola.fr/projects/fantasy-online) | MMORPG fantasy Unity et services .NET autoritaires. | Développement |
+| [FantasyOnline.Shared](https://floriansola.fr/projects/fantasy-online-shared) | Socle de contrats, services et adaptateurs réutilisables. | Développement |
+| [Nexus](https://floriansola.fr/projects/nexus) | Expérience Roblox native et control-plane .NET. | Développement |
+| [SurvivalKingdom](https://floriansola.fr/projects/survival-kingdom) | RPG de survie Unreal, serveur de zone et backend .NET. | Développement |
+| [REWORLD](https://floriansola.fr/projects/reworld) | Géographie, placement, fédérations et atlas navigateur. | Développement |
+| [MANDATE EARTH](https://floriansola.fr/projects/mandate-earth) | Plans agentiques, ressources, logistique et coopération. | Développement |
+| [Symbiont](https://floriansola.fr/projects/symbiont) | Colonie, ressources et écologie d’un monde vivant. | Prototype |
+| [Poisson](https://floriansola.fr/projects/poisson-engine) | Écosystème d’agents, simulation et calcul WebGPU. | Parcours & réalisation |
+| [Ultra RP · s&box](https://floriansola.fr/projects/ultra-rp-sbox) | Systèmes roleplay, interfaces et backend pour s&box. | Parcours & réalisation |
+| [Development Tycoon](https://floriansola.fr/projects/development-tycoon) | Contribution à un jeu de gestion Unity. | Collaboration |
+| [Red Dead Roleplay](https://floriansola.fr/projects/red-dead-roleplay) | Contribution à un projet roleplay C# client/serveur. | Collaboration |
+| [V-Multi / SARP](https://floriansola.fr/projects/gaming-platform) | V-Multi / SARP : fondations réseau et exploitation multijoueur. | Parcours & réalisation |
+
+</details>
+
+<details>
+<summary><strong>Infrastructure, outils & parcours</strong> · 5 projets</summary>
+
+| Projet | Le terrain | Repère |
+| :--- | :--- | :--- |
+| [VPS Command Center](https://floriansola.fr/projects/vps-command-center) | Cockpit, télémétrie, journaux et livraison des services. | Exploitation |
+| [Infrastructure auto-hébergée](https://floriansola.fr/projects/self-hosted-infrastructure) | Linux, Forgejo, CI sur VPS, déploiement et reprise. | Exploitation |
+| [Portfolio Engineering](https://floriansola.fr/projects/portfolio-engineering) | Patterns et composants réutilisables issus des produits. | Parcours & réalisation |
+| [Gecko / IoT](https://floriansola.fr/projects/gecko-iot) | Parcours professionnel : firmware C/FreeRTOS et IoT. | Parcours & réalisation |
+| [Intégrations & archives](https://floriansola.fr/projects/integrations-archives) | Printer, PrestaShop, MobileGame, UnrealCSharp, intégrations de dépenses et CV web. | Archives & intégrations |
+
+</details>
+
+<sub>Le portfolio rassemble produits, parcours professionnel, collaborations, recherche, prototypes et archives. Le code est souvent privé ; les liens ouvrent les présentations publiques. Les repères de recherche et de développement décrivent le périmètre du travail.</sub>
+
+### Le métier derrière les projets
+
+| Ce que je construis | Ce à quoi je fais attention |
 | :--- | :--- |
-| **Architecture & métier** | Définir les responsabilités, les contrats et les règles qui doivent rester vraies. |
-| **Temps réel & données** | Travailler l’autorité serveur, l’invalidation, la synchronisation et les transactions. |
-| **IA & outils** | Relier contexte, comportement, évaluation et supervision humaine. |
-| **Produit & livraison** | Relier l’interface au métier, puis les tests et le déploiement au comportement attendu. |
+| **Systèmes & logiciel métier** | Règles de domaine, contrats, transactions et frontières entre tenants. |
+| **IA & outils de développement** | Contexte, évaluation, preuves de travail et supervision humaine. |
+| **Jeux & simulation** | Autorité, persistance, comportements collectifs et performance. |
+| **Interfaces & exploitation** | Parcours lisibles, observabilité, livraison et reprise. |
 
-<p>
-  <code>C# / .NET</code> <code>Rust</code> <code>TypeScript</code> <code>C / C++</code><br>
-  <code>ActualLab Fusion</code> <code>Blazor</code> <code>React</code> <code>Vue</code> <code>PostgreSQL</code><br>
-  <code>Unity</code> <code>Unreal Engine</code> <code>WebGPU</code> <code>LLVM / WASM</code> <code>Linux / Docker</code>
-</p>
+<p><code>C# / .NET</code> <code>Rust</code> <code>TypeScript</code> <code>C / C++</code><br><code>Fusion</code> <code>Blazor</code> <code>React</code> <code>Vue</code> <code>PostgreSQL</code><br><code>Unity</code> <code>Unreal</code> <code>Roblox / Luau</code> <code>WebGPU</code> <code>LLVM / WASM</code><br><code>Linux</code> <code>Docker</code> <code>Forgejo</code> <code>GitHub Actions</code></p>
 
 ---
 
-<p align="center">
-  <strong>Un produit à créer, un système à repenser, une idée difficile à concrétiser ?</strong><br>
-  Parlons architecture, contraintes et prochaines étapes.<br><br>
-  <a href="https://floriansola.fr/#contact">Me contacter</a>
-</p>
+<p align="center"><strong>Une idée difficile à concrétiser ?</strong><br>Parlons du système, de ses contraintes et de la prochaine étape utile.<br><br><a href="https://floriansola.fr/#contact"><strong>Ouvrir la discussion ↗</strong></a> &nbsp;·&nbsp; <a href="https://floriansola.fr/projects">Parcourir tout l’atelier</a></p>
 
-<p align="center"><sub>Comprendre en profondeur. Construire avec intention.</sub></p>
+<p align="center"><sub>Comprendre en profondeur. Relier les choses. Construire avec intention.</sub></p>

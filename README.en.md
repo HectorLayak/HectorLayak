@@ -1,101 +1,150 @@
 <picture>
-  <source media="(prefers-color-scheme: light)" srcset="assets/cover-light-en.svg">
-  <img src="assets/cover-dark-en.svg" alt="HectorLayak — Systems. Products. Worlds." width="100%">
+  <source media="(prefers-color-scheme: light)" srcset="assets/cover-en-light.svg">
+  <img src="assets/cover-en-dark.svg" alt="HectorLayak — Systems. Products. Worlds." width="100%">
 </picture>
 
-<p align="center">
-  <strong>Senior C#/.NET Developer · Software Architect · Product Builder</strong><br>
-  Based in France · Business software, real-time systems, AI and simulated worlds.
-</p>
+<p align="center"><strong>Software architect · Product builder · Persistent-world enthusiast</strong><br>Code that understands. Systems that connect. Worlds that evolve.</p>
 
-<p align="center">
-  <a href="https://floriansola.fr/en"><strong>Portfolio</strong></a> &nbsp;·&nbsp;
-  <a href="https://floriansola.fr/en/cv">Background & CV</a> &nbsp;·&nbsp;
-  <a href="README.md">Version française ↗</a>
-</p>
+<p align="center"><a href="#the-workshop">Workshop</a> &nbsp;·&nbsp; <a href="#the-projects">All projects</a> &nbsp;·&nbsp; <a href="https://floriansola.fr/en/projects">Explore the portfolio ↗</a> &nbsp;·&nbsp; <a href="README.md">Français</a></p>
 
 ---
 
-### Building the connections that make a product work.
+I like the point where **systems engineering meets the user experience**. A multi-tenant SaaS, an AI agent that needs context, a compiler, a living world or a shared journey all raise the same questions: who owns the rules, how does state stay coherent, and how does the system become understandable?
 
-The most interesting products bring several hard problems together: data that must stay consistent, people working collaboratively, AI that needs the right context, or a world that persists after its players leave.
+My workshop connects **C#/.NET, Rust, TypeScript and C/C++** with business software, real-time architecture, AI, game engines and self-hosted infrastructure. I work from the engine to the interface, then through tests, delivery and operations.
 
-That is where I like to work. **I connect systems engineering with product clarity**: designing the engine, understanding business rules, shaping the interface and preparing operations. My work spans **C#/.NET and real-time architecture**, **Rust, tools for AI agents and simulation**.
-
-Since my first multiplayer projects in 2016, I have worked across business software, configurators, telecom mobile apps and IoT firmware. Today I build SaaS products, developer tools and research projects, with close attention to both architecture and the user experience. [My background →](https://floriansola.fr/en/cv)
-
-### Selected work
+### The workshop
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://aindex.floriansola.fr"><img src="assets/aindex-en.svg" width="100%" alt="AINDEX — code understanding and context for AI agents"></a>
-      <p>Persistent code understanding for agents: dependency graphs, relevant context and relationships between changes, tasks and evidence. A focus on <strong>what an agent needs to know before acting</strong>.</p>
-      <a href="https://aindex.floriansola.fr">Discover AINDEX ↗</a>
+      <a href="https://floriansola.fr/en/projects/aindex"><img src="assets/aindex-en.svg" width="100%" alt="AINDEX"></a>
+      <p>Code understanding, task context and agent supervision.</p>
+      <a href="https://floriansola.fr/en/projects/aindex">Explore the project ↗</a>
     </td>
     <td width="50%" valign="top">
-      <img src="assets/hector-en.svg" width="100%" alt="HECTOR — language, native compiler and WebAssembly">
-      <p>A language and compiler research project for humans and agents, producing native and WebAssembly kernels. <strong>Continuum</strong> extends the exploration into learning and navigation.</p>
-      <sub>Research in progress · HECTOR & Continuum</sub>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://floriansola.fr/projects/onerp-framework"><img src="assets/onerp-en.svg" width="100%" alt="OneRP — multi-tenant roleplay SaaS and Fusion RPC"></a>
-      <p>Roleplay as a platform: a .NET backend, <strong>Fusion RPC</strong>, tenant isolation, FiveM modules and React interfaces. Business rules, server authority and real-time state in one architecture.</p>
-      <a href="https://floriansola.fr/projects/onerp-framework">Project overview ↗</a>
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://floriansola.fr/projects/salecast"><img src="assets/salecast-en.svg" width="100%" alt="SaleCast — multi-channel commerce and forecasting"></a>
-      <p>Connecting multi-channel commerce, synchronization and forecasting in a .NET/Blazor SaaS. Another business domain: <strong>StaffingOS</strong>, for HR operations, approvals and accounting workflows.</p>
-      <a href="https://floriansola.fr/projects/salecast">Project overview ↗</a>
+      <a href="https://floriansola.fr/en/projects/hector"><img src="assets/hector-en.svg" width="100%" alt="HECTOR"></a>
+      <p>Language, native compiler and WebAssembly kernels.</p>
+      <a href="https://floriansola.fr/en/projects/hector">Explore the project ↗</a>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://floriansola.fr/projects/myroadtrip"><img src="assets/roadtripper-en.svg" width="100%" alt="RoadTripper — collaborative travel, maps and mobile experience"></a>
-      <p>Turning a group trip into a shared plan: stops, maps, collaboration and mobile UX. From the first <strong>MyRoadTrip</strong> to newer RoadTripper iterations, geography meets product design.</p>
-      <a href="https://floriansola.fr/projects/myroadtrip">Project overview ↗</a>
+      <a href="https://floriansola.fr/en/projects/onerp-framework"><img src="assets/onerp-en.svg" width="100%" alt="OneRP"></a>
+      <p>A roleplay SaaS platform: Fusion RPC, multi-tenancy, FiveM and React.</p>
+      <a href="https://floriansola.fr/en/projects/onerp-framework">Explore the project ↗</a>
     </td>
     <td width="50%" valign="top">
-      <a href="https://poisson.floriansola.fr/demo/"><img src="assets/poisson-en.svg" width="100%" alt="Poisson Engine — ecological simulation and WebGPU compute"></a>
-      <p>An ecosystem emerging from agents and rules: simulation, spatial indexing and <strong>WebGPU</strong> compute. Performance, collective behavior and browser rendering meet in one engine.</p>
-      <a href="https://poisson.floriansola.fr/demo/">Explore the demo ↗</a> · <a href="https://floriansola.fr/projects/poisson-engine">Architecture ↗</a>
+      <a href="https://floriansola.fr/en/projects/staffingos"><img src="assets/staffingos-en.svg" width="100%" alt="StaffingOS"></a>
+      <p>HR operations, timesheets, expenses, leave and accounting.</p>
+      <a href="https://floriansola.fr/en/projects/staffingos">Explore the project ↗</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://floriansola.fr/en/projects/roadtripper-v2"><img src="assets/roadtripper-en.svg" width="100%" alt="RoadTripper V2"></a>
+      <p>Next generation: a shared plan, map and mobile journey.</p>
+      <a href="https://floriansola.fr/en/projects/roadtripper-v2">Explore the project ↗</a>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://floriansola.fr/en/projects/poisson-engine"><img src="assets/poisson-en.svg" width="100%" alt="Poisson"></a>
+      <p>Agent ecosystems, simulation and WebGPU compute.</p>
+      <a href="https://floriansola.fr/en/projects/poisson-engine">Explore the project ↗</a>
     </td>
   </tr>
 </table>
 
-<sub>This selection includes products, client work and R&D at different stages. Much of the code is private; links lead to public presentations or available demos.</sub>
+### The workshop map
 
-### More of the workshop
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="assets/atlas-en-light.svg">
+  <img src="assets/atlas-en-dark.svg" alt="Five connected areas: agents, business software, worlds, mobile products and operations." width="100%">
+</picture>
 
-**AI in the product** — [PromptVault](https://floriansola.fr/projects/promptvault) turns prompts into team tools; [Matchr](https://floriansola.fr/projects/matchr) explores applications and ATS analysis; [GeopolAI / ModelRisk](https://floriansola.fr/projects/geopolai) explores and compares model decisions.
+### The projects
 
-**Games and persistent worlds** — FantasyOnline and its shared Unity/Roblox foundation, SurvivalKingdom in Unreal, REWORLD's maps, MANDATE EARTH's strategy, Symbiont's ecology and s&box roleplay systems. Projects in development where I explore rules, persistent state and interaction.
+**33 project pages**, organized by terrain. Open a group to explore the work, then follow a case for its architecture and current scope.
 
-**The infrastructure underneath** — Linux, Docker, Caddy, PostgreSQL, Forgejo and GitHub Actions on a VPS. I also care about what keeps software running after the commit: reproducible deployments, observability, backups and recovery procedures.
+<details>
+<summary><strong>Languages, AI & agents</strong> · 9 projects</summary>
 
-### What I bring to a project
+| Project | The terrain | Stage |
+| :--- | :--- | :--- |
+| [AINDEX](https://floriansola.fr/en/projects/aindex) | Code understanding, task context and agent supervision. | Development |
+| [HECTOR](https://floriansola.fr/en/projects/hector) | Language, native compiler and WebAssembly kernels. | Research |
+| [Continuum](https://floriansola.fr/en/projects/continuum) | Learning, navigation and corrective collection in a lab. | Research |
+| [PromptVault](https://floriansola.fr/en/projects/promptvault) | Reusable prompts, team tools and AI governance. | Background & work |
+| [Matchr](https://floriansola.fr/en/projects/matchr) | Application dossiers, ATS analysis and AI assistance. | Background & work |
+| [GeopolAI / ModelRisk](https://floriansola.fr/en/projects/geopolai) | Model decision comparison and bias observation. | Background & work |
+| [AISelector](https://floriansola.fr/en/projects/ai-selector) | C# contracts and adapters for AI providers. | Prototype |
+| [Vouch](https://floriansola.fr/en/projects/vouch) | Security questionnaires and source-grounded RAG answers. | Background & work |
+| [Vision Security Lab](https://floriansola.fr/en/projects/vision-security-lab) | Vision, agent behavior and controlled evaluation. | Research |
 
-| Area | How I approach it |
+</details>
+
+<details>
+<summary><strong>Business products & collaboration</strong> · 7 projects</summary>
+
+| Project | The terrain | Stage |
+| :--- | :--- | :--- |
+| [OneRP](https://floriansola.fr/en/projects/onerp-framework) | Roleplay SaaS platform, Fusion RPC and multi-tenant architecture. | Background & work |
+| [SaleCast](https://floriansola.fr/en/projects/salecast) | Multi-channel commerce, synchronization and forecasting. | Background & work |
+| [StaffingOS](https://floriansola.fr/en/projects/staffingos) | HR operations, timesheets, expenses, leave and accounting. | Development |
+| [MyRoadTrip](https://floriansola.fr/en/projects/myroadtrip) | First generation: collaborative trips and offline use. | Background & work |
+| [RoadTripper V2](https://floriansola.fr/en/projects/roadtripper-v2) | Next generation: a shared plan, map and mobile journey. | Development |
+| [PartyFlow](https://floriansola.fr/en/projects/partyflow) | Mobile exploration with Vue, Ionic and Capacitor. | Prototype |
+| [Racine](https://floriansola.fr/en/projects/racine) | Memories, family connections and a private shared space. | Background & work |
+
+</details>
+
+<details>
+<summary><strong>Worlds, games & simulation</strong> · 12 projects</summary>
+
+| Project | The terrain | Stage |
+| :--- | :--- | :--- |
+| [FantasyOnline](https://floriansola.fr/en/projects/fantasy-online) | Unity fantasy MMORPG and authoritative .NET services. | Development |
+| [FantasyOnline.Shared](https://floriansola.fr/en/projects/fantasy-online-shared) | A reusable foundation of contracts, services and adapters. | Development |
+| [Nexus](https://floriansola.fr/en/projects/nexus) | A native Roblox experience and .NET control plane. | Development |
+| [SurvivalKingdom](https://floriansola.fr/en/projects/survival-kingdom) | Unreal survival RPG, zone server and .NET backend. | Development |
+| [REWORLD](https://floriansola.fr/en/projects/reworld) | Geography, placement, federations and a browser atlas. | Development |
+| [MANDATE EARTH](https://floriansola.fr/en/projects/mandate-earth) | Agentic plans, resources, logistics and cooperation. | Development |
+| [Symbiont](https://floriansola.fr/en/projects/symbiont) | Colony, resources and the ecology of a living world. | Prototype |
+| [Poisson](https://floriansola.fr/en/projects/poisson-engine) | Agent ecosystems, simulation and WebGPU compute. | Background & work |
+| [Ultra RP · s&box](https://floriansola.fr/en/projects/ultra-rp-sbox) | Roleplay systems, interfaces and a backend for s&box. | Background & work |
+| [Development Tycoon](https://floriansola.fr/en/projects/development-tycoon) | Contribution to a Unity management-game project. | Collaboration |
+| [Red Dead Roleplay](https://floriansola.fr/en/projects/red-dead-roleplay) | Contribution to a C# client/server roleplay project. | Collaboration |
+| [V-Multi / SARP](https://floriansola.fr/en/projects/gaming-platform) | V-Multi / SARP: network foundations and multiplayer operations. | Background & work |
+
+</details>
+
+<details>
+<summary><strong>Infrastructure, tools & background</strong> · 5 projects</summary>
+
+| Project | The terrain | Stage |
+| :--- | :--- | :--- |
+| [VPS Command Center](https://floriansola.fr/en/projects/vps-command-center) | Cockpit, telemetry, logs and service delivery. | Operations |
+| [Infrastructure auto-hébergée](https://floriansola.fr/en/projects/self-hosted-infrastructure) | Linux, Forgejo, VPS CI, deployment and recovery. | Operations |
+| [Portfolio Engineering](https://floriansola.fr/en/projects/portfolio-engineering) | Reusable patterns and components extracted from products. | Background & work |
+| [Gecko / IoT](https://floriansola.fr/en/projects/gecko-iot) | Professional background: C/FreeRTOS firmware and IoT. | Background & work |
+| [Intégrations & archives](https://floriansola.fr/en/projects/integrations-archives) | Printer, PrestaShop, MobileGame, UnrealCSharp, expense integrations and CV websites. | Archives & integrations |
+
+</details>
+
+<sub>The portfolio includes products, professional work, collaboration, research, prototypes and archives. Code is often private; links open public project presentations. Research and development labels describe scope rather than release readiness.</sub>
+
+### The craft
+
+| What I build | What I pay attention to |
 | :--- | :--- |
-| **Architecture & domain** | Define responsibilities, contracts and the rules that must stay true. |
-| **Real-time & data** | Work on server authority, invalidation, synchronization and transactions. |
-| **AI & tools** | Connect context, behavior, evaluation and human supervision. |
-| **Product & delivery** | Connect the interface to the domain, then tests and deployment to expected behavior. |
+| **Systems & business software** | Domain rules, contracts, transactions and tenant boundaries. |
+| **AI & developer tools** | Context, evaluation, task evidence and human supervision. |
+| **Games & simulation** | Authority, persistence, collective behavior and performance. |
+| **Interfaces & operations** | Readable journeys, observability, delivery and recovery. |
 
-<p>
-  <code>C# / .NET</code> <code>Rust</code> <code>TypeScript</code> <code>C / C++</code><br>
-  <code>ActualLab Fusion</code> <code>Blazor</code> <code>React</code> <code>Vue</code> <code>PostgreSQL</code><br>
-  <code>Unity</code> <code>Unreal Engine</code> <code>WebGPU</code> <code>LLVM / WASM</code> <code>Linux / Docker</code>
-</p>
+<p><code>C# / .NET</code> <code>Rust</code> <code>TypeScript</code> <code>C / C++</code><br><code>Fusion</code> <code>Blazor</code> <code>React</code> <code>Vue</code> <code>PostgreSQL</code><br><code>Unity</code> <code>Unreal</code> <code>Roblox / Luau</code> <code>WebGPU</code> <code>LLVM / WASM</code><br><code>Linux</code> <code>Docker</code> <code>Forgejo</code> <code>GitHub Actions</code></p>
 
 ---
 
-<p align="center">
-  <strong>A product to build, a system to rethink, a difficult idea to make real?</strong><br>
-  Let's talk architecture, constraints and next steps.<br><br>
-  <a href="https://floriansola.fr/en#contact">Get in touch</a>
-</p>
+<p align="center"><strong>A difficult idea to make real?</strong><br>Let's talk about the system, its constraints and the next useful step.<br><br><a href="https://floriansola.fr/en#contact"><strong>Start a conversation ↗</strong></a> &nbsp;·&nbsp; <a href="https://floriansola.fr/en/projects">Explore the whole workshop</a></p>
 
-<p align="center"><sub>Understand deeply. Build with intent.</sub></p>
+<p align="center"><sub>Understand deeply. Connect the pieces. Build with intent.</sub></p>
