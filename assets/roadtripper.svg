@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="220" viewBox="0 0 560 220" role="img" aria-labelledby="title desc">
+<title id="title">RoadTripper — Un voyage. Un groupe. Un cap.</title><desc id="desc">Original vector artwork for Florian Sola's GitHub profile.</desc>
+<defs></defs><rect width="560" height="220" rx="16" fill="#111722"/><rect x=".5" y=".5" width="559" height="219" rx="15.5" fill="none" stroke="#293346"/>
+<circle cx="457" cy="96" r="108" fill="#f3b2d4" opacity=".035"/>
+<g font-family="Segoe UI,Arial,sans-serif"><text x="26" y="35" font-size="10" fill="#f3b2d4" letter-spacing="1.7">05 / COLLABORATIVE PRODUCT</text>
+<text x="26" y="86" font-size="34" font-weight="650" fill="#edf2fa" letter-spacing="-.8">RoadTripper</text>
+<text x="26" y="118" font-size="14" fill="#b1bed2">Un voyage. Un groupe. Un cap.</text>
+<path d="M26 159H534" stroke="#293346"/><text x="26" y="190" font-size="10.5" fill="#f3b2d4" letter-spacing="1.4">MAPS · MOBILE · COLLABORATION</text></g><g fill="none" stroke="#f3b2d4" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" opacity=".85"><path d="M405 123C493 146 486 90 434 92S403 48 501 41" stroke-dasharray="4 5"/><circle cx="405" cy="123" r="5" fill="#111722"/><circle cx="444" cy="91" r="4" fill="#111722"/><path d="M501 25C480 25 480 48 501 62C522 48 522 25 501 25Z"/><circle cx="501" cy="40" r="4"/><path d="M388 51C418 20 490 2 532 21M383 67C424 27 493 12 532 38M387 145C445 163 500 154 532 122" opacity=".22"/></g></svg>
