@@ -1,6 +1,6 @@
 ![HectorLayak — Comprendre. Construire. Faire vivre.](assets/showcase/hero-fr.svg)
 
-<p align="center"><a href="#projets-choisis">Six projets</a> · <a href="#la-carte-de-latelier">La carte</a> · <a href="#tout-latelier">33 projets</a> · <a href="https://floriansola.fr">Site personnel ↗</a> · <a href="README.en.md">English</a></p>
+<p align="center"><a href="#projets-choisis">Six projets</a> · <a href="#la-carte-de-latelier">La carte</a> · <a href="#tout-latelier">33 projets</a> · <a href="https://floriansola.fr">Studio &amp; services ↗</a> · <a href="README.en.md">English</a></p>
 
 Je construis des plateformes métier, des outils pour les développeurs et des mondes en réseau. Du compilateur à l'interface, je travaille les contrats, l'autorité et la cohérence de l'état.
 
@@ -8,7 +8,7 @@ Je construis des plateformes métier, des outils pour les développeurs et des m
 
 ## Projets choisis
 
-[![AINDEX — Les agents opèrent. Les humains supervisent le projet.](assets/showcase/aindex-fr.svg)](https://floriansola.fr/projects/aindex)
+[![AINDEX — Les agents opèrent. Les humains supervisent le projet.](assets/showcase/aindex-fr.svg)](projects/aindex.md)
 
 AINDEX organise le travail des agents autour du projet : missions, contexte du dépôt, changements et vérifications. Le moteur Rust porte l’autorité ; le Studio donne aux humains une vue commune pour superviser et décider.
 
@@ -26,9 +26,9 @@ AINDEX organise le travail des agents autour du projet : missions, contexte du d
 
 </details>
 
-[Explorer le projet ↗](https://floriansola.fr/projects/aindex)
+[Explorer le projet ↗](projects/aindex.md)
 
-[![HECTOR — Un langage pour exprimer les comportements, compiler et examiner les contrats.](assets/showcase/hector-fr.svg)](https://floriansola.fr/projects/hector)
+[![HECTOR — Un langage pour exprimer les comportements, compiler et examiner les contrats.](assets/showcase/hector-fr.svg)](projects/hector.md)
 
 HECTOR est un langage et un compilateur natif pour auteurs humains et agents. Types, effets et contrats accompagnent des noyaux métier exécutables en natif et WebAssembly.
 
@@ -46,9 +46,9 @@ HECTOR est un langage et un compilateur natif pour auteurs humains et agents. Ty
 
 </details>
 
-[Explorer le projet ↗](https://floriansola.fr/projects/hector)
+[Explorer le projet ↗](projects/hector.md)
 
-[![OneRP — Un socle SaaS pour exploiter des mondes roleplay FiveM.](assets/showcase/onerp-framework-fr.svg)](https://floriansola.fr/projects/onerp-framework)
+[![OneRP — Un socle SaaS pour exploiter des mondes roleplay FiveM.](assets/showcase/onerp-framework-fr.svg)](projects/onerp-framework.md)
 
 OneRP associe un backend SaaS, une administration et des modules FiveM. Personnages, économie, inventaires, véhicules, logements et activités partagent des services métier réactifs et des interfaces React en jeu.
 
@@ -67,9 +67,9 @@ OneRP associe un backend SaaS, une administration et des modules FiveM. Personna
 
 </details>
 
-[Explorer le projet ↗](https://floriansola.fr/projects/onerp-framework)
+[Explorer le projet ↗](projects/onerp-framework.md)
 
-[![StaffingOS — Relier missions, temps, frais et préparation des sorties financières.](assets/showcase/staffingos-fr.svg)](https://floriansola.fr/projects/staffingos)
+[![StaffingOS — Relier missions, temps, frais et préparation des sorties financières.](assets/showcase/staffingos-fr.svg)](projects/staffingos.md)
 
 StaffingOS relie les missions chez les clients, les temps, les frais et les absences aux étapes de validation et de préparation financière. Les espaces salarié et gestionnaire partagent les dossiers et leurs règles d'accès.
 
@@ -88,9 +88,9 @@ StaffingOS relie les missions chez les clients, les temps, les frais et les abse
 
 </details>
 
-[Explorer le projet ↗](https://floriansola.fr/projects/staffingos)
+[Explorer le projet ↗](projects/staffingos.md)
 
-[![RoadTripper — Un programme commun, une carte et un copilote pour voyager à plusieurs.](assets/showcase/roadtripper-fr.svg)](https://floriansola.fr/projects/roadtripper)
+[![RoadTripper — Un programme commun, une carte et un copilote pour voyager à plusieurs.](assets/showcase/roadtripper-fr.svg)](projects/roadtripper.md)
 
 Un carnet de voyage partagé pour construire ses journées, explorer les lieux sur une carte, organiser le groupe et suivre ses dépenses. Le copilote propose des changements que les voyageurs peuvent relire avant de les adopter.
 
@@ -109,9 +109,9 @@ Un carnet de voyage partagé pour construire ses journées, explorer les lieux s
 
 </details>
 
-[Explorer le projet ↗](https://floriansola.fr/projects/roadtripper)
+[Explorer le projet ↗](projects/roadtripper.md)
 
-[![Poisson Engine — Un écosystème vivant simulé dans le navigateur.](assets/showcase/poisson-engine-fr.svg)](https://floriansola.fr/projects/poisson-engine)
+[![Poisson Engine — Un écosystème vivant simulé dans le navigateur.](assets/showcase/poisson-engine-fr.svg)](projects/poisson-engine.md)
 
 Poisson simule bancs, prédation, métabolisme et mutations dans le navigateur. Le moteur sépare le calcul WebGPU/CPU du rendu WebGL/Canvas2D et sert des modes d’observation, de sandbox et de jeu.
 
@@ -129,7 +129,7 @@ Poisson simule bancs, prédation, métabolisme et mutations dans le navigateur. 
 
 </details>
 
-[Explorer le projet ↗](https://floriansola.fr/projects/poisson-engine)
+[Explorer le projet ↗](projects/poisson-engine.md)
 
 ## La carte de l’atelier
 
@@ -146,15 +146,15 @@ Poisson simule bancs, prédation, métabolisme et mutations dans le navigateur. 
 
 | Projet | Domaine |
 | :--- | :--- |
-| [AINDEX](https://floriansola.fr/projects/aindex) | Les agents opèrent. Les humains supervisent le projet. |
-| [HECTOR](https://floriansola.fr/projects/hector) | Un langage pour exprimer les comportements, compiler et examiner les contrats. |
-| [Continuum](https://floriansola.fr/projects/continuum) | Apprendre à naviguer, puis mesurer les décisions dans un laboratoire reproductible. |
-| [PromptVault](https://floriansola.fr/projects/promptvault) | Transformer les prompts d’une équipe en outils réutilisables |
-| [Matchr](https://floriansola.fr/projects/matchr) | Une offre, un CV ciblé, un dossier de candidature suivi. |
-| [ModelRisk Observatory · GeopolAI](https://floriansola.fr/projects/geopolai) | Comparer les réponses de modèles IA sur des scénarios contrôlés |
-| [AISelector](https://floriansola.fr/projects/ai-selector) | Un contrat commun pour appeler plusieurs fournisseurs IA |
-| [Vouch](https://floriansola.fr/projects/vouch) | Préparer des réponses de sécurité à partir de sources traçables |
-| [Vision Security Lab](https://floriansola.fr/projects/vision-security-lab) | Observer des comportements automatisés à partir de l’image. |
+| [AINDEX](projects/aindex.md) | Les agents opèrent. Les humains supervisent le projet. |
+| [HECTOR](projects/hector.md) | Un langage pour exprimer les comportements, compiler et examiner les contrats. |
+| [Continuum](projects/continuum.md) | Apprendre à naviguer, puis mesurer les décisions dans un laboratoire reproductible. |
+| [PromptVault](projects/promptvault.md) | Transformer les prompts d’une équipe en outils réutilisables |
+| [Matchr](projects/matchr.md) | Une offre, un CV ciblé, un dossier de candidature suivi. |
+| [ModelRisk Observatory · GeopolAI](projects/geopolai.md) | Comparer les réponses de modèles IA sur des scénarios contrôlés |
+| [AISelector](projects/ai-selector.md) | Un contrat commun pour appeler plusieurs fournisseurs IA |
+| [Vouch](projects/vouch.md) | Préparer des réponses de sécurité à partir de sources traçables |
+| [Vision Security Lab](projects/vision-security-lab.md) | Observer des comportements automatisés à partir de l’image. |
 
 </details>
 
@@ -163,12 +163,12 @@ Poisson simule bancs, prédation, métabolisme et mutations dans le navigateur. 
 
 | Projet | Domaine |
 | :--- | :--- |
-| [OneRP](https://floriansola.fr/projects/onerp-framework) | Un socle SaaS pour exploiter des mondes roleplay FiveM. |
-| [SaleCast](https://floriansola.fr/projects/salecast) | Relier les canaux de vente et préparer le prochain réapprovisionnement. |
-| [StaffingOS](https://floriansola.fr/projects/staffingos) | Relier missions, temps, frais et préparation des sorties financières. |
-| [RoadTripper](https://floriansola.fr/projects/roadtripper) | Un programme commun, une carte et un copilote pour voyager à plusieurs. |
-| [PartyFlow](https://floriansola.fr/projects/partyflow) | Créer un salon, réunir les joueurs et enchaîner les défis |
-| [Racine](https://floriansola.fr/projects/racine) | Un espace familial pour garder les liens et les souvenirs |
+| [OneRP](projects/onerp-framework.md) | Un socle SaaS pour exploiter des mondes roleplay FiveM. |
+| [SaleCast](projects/salecast.md) | Relier les canaux de vente et préparer le prochain réapprovisionnement. |
+| [StaffingOS](projects/staffingos.md) | Relier missions, temps, frais et préparation des sorties financières. |
+| [RoadTripper](projects/roadtripper.md) | Un programme commun, une carte et un copilote pour voyager à plusieurs. |
+| [PartyFlow](projects/partyflow.md) | Créer un salon, réunir les joueurs et enchaîner les défis |
+| [Racine](projects/racine.md) | Un espace familial pour garder les liens et les souvenirs |
 
 </details>
 
@@ -177,19 +177,19 @@ Poisson simule bancs, prédation, métabolisme et mutations dans le navigateur. 
 
 | Projet | Domaine |
 | :--- | :--- |
-| [FantasyOnline](https://floriansola.fr/projects/fantasy-online) | Un monde fantasy persistant, du terrain généré aux règles serveur. |
-| [FantasyOnline.Shared](https://floriansola.fr/projects/fantasy-online-shared) | Partager les contrats et les règles, avec une adoption explicite par jeu. |
-| [Nexus / Reclaim City](https://floriansola.fr/projects/nexus) | Récupérer des épaves et reconstruire un district à son image. |
-| [SurvivalKingdom](https://floriansola.fr/projects/survival-kingdom) | Relier la survie, un monde multijoueur et les services qui le font durer. |
-| [Survival Unreal](https://floriansola.fr/projects/survival-acfu) | Un monde de survie relié à ses propres services de jeu. |
-| [REWORLD](https://floriansola.fr/projects/reworld) | Composer un atlas, relier ses territoires et écrire leur histoire. |
-| [MANDATE EARTH](https://floriansola.fr/projects/mandate-earth) | Préparer un plan, engager des ressources et en suivre les conséquences. |
-| [Symbiont](https://floriansola.fr/projects/symbiont) | Faire grandir une colonie sans épuiser le monde qui la nourrit. |
-| [Poisson Engine](https://floriansola.fr/projects/poisson-engine) | Un écosystème vivant simulé dans le navigateur. |
-| [Ultra RP](https://floriansola.fr/projects/ultra-rp-sbox) | Un monde roleplay s&box, du métier du joueur aux outils d’exploitation |
-| [Development Tycoon](https://floriansola.fr/projects/development-tycoon) | Concevoir la croissance d’un studio logiciel comme un jeu de gestion. |
-| [Red Dead Roleplay](https://floriansola.fr/projects/red-dead-roleplay) | Composer un monde roleplay autour des personnages et des interactions. |
-| [V-Multi / SARP](https://floriansola.fr/projects/gaming-platform) | Un parcours fondateur dans le multijoueur et les mondes communautaires. |
+| [FantasyOnline](projects/fantasy-online.md) | Un monde fantasy persistant, du terrain généré aux règles serveur. |
+| [FantasyOnline.Shared](projects/fantasy-online-shared.md) | Partager les contrats et les règles, avec une adoption explicite par jeu. |
+| [Nexus / Reclaim City](projects/nexus.md) | Récupérer des épaves et reconstruire un district à son image. |
+| [SurvivalKingdom](projects/survival-kingdom.md) | Relier la survie, un monde multijoueur et les services qui le font durer. |
+| [SurvivalUnreal](projects/survival-unreal.md) | Un monde de survie relié à ses propres services de jeu. |
+| [REWORLD](projects/reworld.md) | Composer un atlas, relier ses territoires et écrire leur histoire. |
+| [MANDATE EARTH](projects/mandate-earth.md) | Préparer un plan, engager des ressources et en suivre les conséquences. |
+| [Symbiont](projects/symbiont.md) | Faire grandir une colonie sans épuiser le monde qui la nourrit. |
+| [Poisson Engine](projects/poisson-engine.md) | Un écosystème vivant simulé dans le navigateur. |
+| [Ultra RP](projects/ultra-rp-sbox.md) | Un monde roleplay s&box, du métier du joueur aux outils d’exploitation |
+| [Development Tycoon](projects/development-tycoon.md) | Concevoir la croissance d’un studio logiciel comme un jeu de gestion. |
+| [Red Dead Roleplay](projects/red-dead-roleplay.md) | Composer un monde roleplay autour des personnages et des interactions. |
+| [V-Multi / SARP](projects/gaming-platform.md) | Un parcours fondateur dans le multijoueur et les mondes communautaires. |
 
 </details>
 
@@ -198,14 +198,14 @@ Poisson simule bancs, prédation, métabolisme et mutations dans le navigateur. 
 
 | Projet | Domaine |
 | :--- | :--- |
-| [VPS Command Center](https://floriansola.fr/projects/vps-command-center) | Relier la santé des services aux décisions d’exploitation. |
-| [Infrastructure auto-hébergée](https://floriansola.fr/projects/self-hosted-infrastructure) | Organiser l’hébergement, la livraison et la reprise des produits. |
-| [Portfolio Engineering](https://floriansola.fr/projects/portfolio-engineering) | Transformer les problèmes récurrents en composants réutilisables. |
-| [Gecko IoT](https://floriansola.fr/projects/gecko-iot) | Une expérience professionnelle au contact du logiciel embarqué. |
-| [Intégrations & archives](https://floriansola.fr/projects/integrations-archives) | Conserver les adaptateurs, les essais et les premières versions. |
+| [VPS Command Center](projects/vps-command-center.md) | Relier la santé des services aux décisions d’exploitation. |
+| [Infrastructure auto-hébergée](projects/self-hosted-infrastructure.md) | Organiser l’hébergement, la livraison et la reprise des produits. |
+| [Portfolio Engineering](projects/portfolio-engineering.md) | Transformer les problèmes récurrents en composants réutilisables. |
+| [Gecko IoT](projects/gecko-iot.md) | Une expérience professionnelle au contact du logiciel embarqué. |
+| [Intégrations & archives](projects/integrations-archives.md) | Conserver les adaptateurs, les essais et les premières versions. |
 
 </details>
 
 ---
 
-[Site personnel](https://floriansola.fr) · [Notes et articles](https://floriansola.fr/blog) · [English](README.en.md)
+[Studio & services](https://floriansola.fr) · [Notes et articles](https://floriansola.fr/blog) · [English](README.en.md)

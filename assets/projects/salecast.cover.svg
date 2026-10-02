@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="1000" viewBox="0 0 1400 1000" role="img" aria-labelledby="title desc">
+<title id="title">SaleCast</title><desc id="desc">Courbe de demande illustrative : historique, prévision et incertitude. Aucune donnée mesurée représentée.</desc>
+<rect width="1400" height="1000" fill="#171815"/>
+<g font-family="Arial, Helvetica, sans-serif">
+<path d="M80 72H184" stroke="#D3B26E" stroke-width="8"/>
+<text x="80" y="208" fill="#F4EFE7" font-size="132" font-weight="600" text-anchor="start">SaleCast</text>
+<text x="84" y="300" fill="#F4EFE7" font-size="62" font-weight="400" text-anchor="start">Prévoir la demande.</text><text x="84" y="376" fill="#F4EFE7" font-size="62" font-weight="400" text-anchor="start">Préparer le réapprovisionnement.</text>
+<path d="M114 875H1290M114 470V875" fill="none" stroke="#92918A" stroke-width="2" /><path d="M744 632C810 576 879 618 940 558S1102 572 1274 457L1274 694C1102 766 1034 690 940 710S810 683 744 704Z" fill="#D3B26E" opacity=".12"/><path d="M115 802C170 802 183 642 252 690S356 825 403 743S492 620 550 688S665 797 744 667" fill="none" stroke="#D3B26E" stroke-width="6" /><path d="M744 667C809 620 879 646 940 633S1102 634 1274 575" fill="none" stroke="#D3B26E" stroke-width="6" stroke-dasharray="13 16"/><path d="M744 449V876" fill="none" stroke="#F4EFE7" stroke-width="2" stroke-dasharray="5 13"/><circle cx="744" cy="667" r="14" fill="#F4EFE7" stroke="#F4EFE7" stroke-width="3"/><text x="134" y="957" fill="#F4EFE7" font-size="60" font-weight="400" text-anchor="start">Historique</text><text x="885" y="957" fill="#D3B26E" font-size="60" font-weight="400" text-anchor="start">Prévision</text>
+</g></svg>
