@@ -6,7 +6,11 @@
 
 [All projects](../README.en.md#the-whole-workshop) · [Français](symbiont.md)
 
-Symbiont builds its first experience around a small colony on a procedural map. Players select inhabitants, give destinations and track the needs and tasks shaping daily life. Eating consumes local fertility; the ecological map reveals that cost and the terrain’s recovery. Construction, production, stockpiles, health and progression are developed as separate modules. The engine reuses Poisson foundations, while the application, isometric interface and colony rules establish the game’s own identity. Evolution toward collective forms of life remains part of its progression work.
+Symbiont builds its first experience around a small colony on a procedural map. Players select inhabitants, give destinations and track the needs and tasks shaping daily life.
+
+Eating consumes local fertility; the ecological map reveals that cost and the terrain’s recovery. Construction, production, stockpiles, health and progression are developed as separate modules.
+
+The engine reuses Poisson foundations, while the application, isometric interface and colony rules establish the game’s own identity. Evolution toward collective forms of life remains part of its progression work.
 
 ## Journey
 

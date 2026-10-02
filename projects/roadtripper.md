@@ -6,7 +6,11 @@
 
 [Tous les projets](../README.md#tout-latelier) · [English](roadtripper.en.md)
 
-RoadTripper accompagne le voyage depuis la première idée jusqu'aux journées sur la route. On compose un programme par étapes, on consulte les lieux et les trajets, puis on retrouve le même jour et la même sélection entre la liste et la carte. Le groupe rassemble voyageurs et voitures, invitations et rôles, propositions de lieux et coordination du convoi. Le carnet pratique réunit réservations, dépenses, documents, préparation et journal. Le copilote aide à enrichir ou adapter un parcours à partir de demandes explicites et de lieux sourcés ; ses propositions restent à relire. Le projet prolonge MyRoadTrip avec une architecture reconstruite autour d'un domaine commun, d'une passerelle et du moteur de calcul Hector.
+RoadTripper accompagne le voyage depuis la première idée jusqu'aux journées sur la route. On compose un programme par étapes, on consulte les lieux et les trajets, puis on retrouve le même jour et la même sélection entre la liste et la carte.
+
+Le groupe rassemble voyageurs et voitures, invitations et rôles, propositions de lieux et coordination du convoi. Le carnet pratique réunit réservations, dépenses, documents, préparation et journal.
+
+Le copilote aide à enrichir ou adapter un parcours à partir de demandes explicites et de lieux sourcés ; ses propositions restent à relire. Le projet prolonge MyRoadTrip avec une architecture reconstruite autour d'un domaine commun, d'une passerelle et du moteur de calcul Hector.
 
 ## Parcours
 

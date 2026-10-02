@@ -6,7 +6,11 @@
 
 [All projects](../README.en.md#the-whole-workshop) · [Français](roadtripper.md)
 
-RoadTripper follows a trip from the first idea to the days on the road. Travellers compose an itinerary from individual stops, inspect places and routes, and keep the same day and selection when switching between the list and the map. The group brings together travellers and cars, invitations and roles, place suggestions and convoy coordination. A practical notebook collects reservations, expenses, documents, preparation and a travel journal. The copilot helps enrich or adapt an itinerary through explicit requests and sourced places, with proposals kept for review. RoadTripper continues the MyRoadTrip product through an architecture rebuilt around a shared domain, a gateway and the Hector calculation engine.
+RoadTripper follows a trip from the first idea to the days on the road. Travellers compose an itinerary from individual stops, inspect places and routes, and keep the same day and selection when switching between the list and the map.
+
+The group brings together travellers and cars, invitations and roles, place suggestions and convoy coordination. A practical notebook collects reservations, expenses, documents, preparation and a travel journal.
+
+The copilot helps enrich or adapt an itinerary through explicit requests and sourced places, with proposals kept for review. RoadTripper continues the MyRoadTrip product through an architecture rebuilt around a shared domain, a gateway and the Hector calculation engine.
 
 ## Journey
 

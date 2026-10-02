@@ -6,7 +6,11 @@
 
 [Tous les projets](../README.md#tout-latelier) · [English](symbiont.en.md)
 
-Symbiont construit sa première expérience autour d’une petite colonie sur une carte procédurale. Le joueur sélectionne ses habitants, leur donne des destinations et suit leurs besoins ainsi que les tâches qui organisent leur quotidien. Se nourrir consomme la fertilité locale ; la carte écologique fait apparaître ce coût et la régénération du terrain. Le jeu développe construction, production, stocks, santé et progression dans des modules distincts. Son moteur réutilise des fondations de Poisson, tandis que l’application, l’interface isométrique et les règles de colonie lui donnent une identité propre. Le passage vers des formes de vie collectives appartient au développement de la progression du projet.
+Symbiont construit sa première expérience autour d’une petite colonie sur une carte procédurale. Le joueur sélectionne ses habitants, leur donne des destinations et suit leurs besoins ainsi que les tâches qui organisent leur quotidien.
+
+Se nourrir consomme la fertilité locale ; la carte écologique fait apparaître ce coût et la régénération du terrain. Le jeu développe construction, production, stocks, santé et progression dans des modules distincts.
+
+Son moteur réutilise des fondations de Poisson, tandis que l’application, l’interface isométrique et les règles de colonie lui donnent une identité propre. Le passage vers des formes de vie collectives appartient au développement de la progression du projet.
 
 ## Parcours
 

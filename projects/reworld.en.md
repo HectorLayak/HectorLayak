@@ -6,7 +6,11 @@
 
 [All projects](../README.en.md#the-whole-workshop) · [Français](reworld.md)
 
-REWORLD starts with a concrete action: choose a fragment, rotate it and confirm its position on the map. The atlas grows through its territories, routes and federations. Scenarios introduce geographical estimation or trading companies and their Council; a chapter-based campaign guides progression. Journals, saves and replays let players revisit and inspect a game. The Studio supports scenario creation. Stylised relief makes the world readable, while versioned kernels calculate geometry and economic rules.
+REWORLD starts with a concrete action: choose a fragment, rotate it and confirm its position on the map. The atlas grows through its territories, routes and federations.
+
+Scenarios introduce geographical estimation or trading companies and their Council; a chapter-based campaign guides progression. Journals, saves and replays let players revisit and inspect a game.
+
+The Studio supports scenario creation. Stylised relief makes the world readable, while versioned kernels calculate geometry and economic rules.
 
 ## Journey
 

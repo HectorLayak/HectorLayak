@@ -6,7 +6,11 @@
 
 [All projects](../README.en.md#the-whole-workshop) · [Français](continuum.md)
 
-Continuum connects a scene observation to a decision and then a command executed in a controlled environment. Its current slice learns a navigation policy in Hector: shape perception provides useful geometry, the network selects a direction and a browser adapter sends the keys. Campaigns compare imitation and corrective collection, retain failures and separate training from evaluation. The project also investigates stale observations, asynchronous races and command refusals. Other laboratory tasks retain classical controllers; learned navigation is the documented experimental slice.
+Continuum connects a scene observation to a decision and then a command executed in a controlled environment. Its current slice learns a navigation policy in Hector: shape perception provides useful geometry, the network selects a direction and a browser adapter sends the keys.
+
+Campaigns compare imitation and corrective collection, retain failures and separate training from evaluation. The project also investigates stale observations, asynchronous races and command refusals.
+
+Other laboratory tasks retain classical controllers; learned navigation is the documented experimental slice.
 
 ## Journey
 

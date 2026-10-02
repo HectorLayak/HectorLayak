@@ -6,7 +6,11 @@
 
 [Tous les projets](../README.md#tout-latelier) · [English](nexus.en.md)
 
-Nexus / Reclaim City développe une boucle autour de véhicules abandonnés et de ressources récupérées. Le joueur part de son garage, réalise un contrat, ramène une épave et choisit ce qu’elle deviendra : véhicule réparé, matières premières, vente ou collection. Le district privé rend la progression visible, avec un garage, des ouvriers et des pistes d’automatisation. Une ville publique apporte le terrain partagé de l’expérience. Le gameplay et son autorité restent dans Roblox en Luau ; un control-plane .NET accompagne la télémétrie, les configurations live-ops, l’audit et les outils de support. La fiche présente cette boucle et sa construction actuelle, avec une expérience complète encore en développement.
+Nexus / Reclaim City développe une boucle autour de véhicules abandonnés et de ressources récupérées. Le joueur part de son garage, réalise un contrat, ramène une épave et choisit ce qu’elle deviendra : véhicule réparé, matières premières, vente ou collection.
+
+Le district privé rend la progression visible, avec un garage, des ouvriers et des pistes d’automatisation. Une ville publique apporte le terrain partagé de l’expérience.
+
+Le gameplay et son autorité restent dans Roblox en Luau ; un control-plane .NET accompagne la télémétrie, les configurations live-ops, l’audit et les outils de support. La fiche présente cette boucle et sa construction actuelle, avec une expérience complète encore en développement.
 
 ## Parcours
 

@@ -6,7 +6,11 @@
 
 [All projects](../README.en.md#the-whole-workshop) · [Français](nexus.md)
 
-Nexus / Reclaim City develops a loop around abandoned vehicles and recovered resources. Players leave their garage, complete a contract, bring back a wreck and choose its future: a repaired vehicle, raw materials, a sale or a collection item. A private district makes progress visible through a garage, workers and developing automation. A public city provides the shared setting. Gameplay and its authority stay in Roblox Luau; a .NET control plane supports telemetry, live-ops configuration, audit and support tools. This case study describes the loop and its current construction, with the complete experience still in development.
+Nexus / Reclaim City develops a loop around abandoned vehicles and recovered resources. Players leave their garage, complete a contract, bring back a wreck and choose its future: a repaired vehicle, raw materials, a sale or a collection item.
+
+A private district makes progress visible through a garage, workers and developing automation. A public city provides the shared setting.
+
+Gameplay and its authority stay in Roblox Luau; a .NET control plane supports telemetry, live-ops configuration, audit and support tools. This case study describes the loop and its current construction, with the complete experience still in development.
 
 ## Journey
 

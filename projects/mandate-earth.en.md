@@ -6,7 +6,11 @@
 
 [All projects](../README.en.md#the-whole-workshop) · [Français](mandate-earth.md)
 
-MANDATE EARTH puts players in charge of a consortium within a scenario built around cities and corridors. They buy resources, start construction, arrange shipments and negotiate contracts or pacts. Plans can chain several steps and wait for actual delivery before proceeding. The Rhône scenario adds seasons, reserves and water shortages; its water economy is fictional. Solo games, mirrored challenges, duels and cooperation provide different ways to compare decisions. A local heuristic strategist works without external keys; optional AI providers and an MCP interface let agents act on authorised observations.
+MANDATE EARTH puts players in charge of a consortium within a scenario built around cities and corridors. They buy resources, start construction, arrange shipments and negotiate contracts or pacts. Plans can chain several steps and wait for actual delivery before proceeding.
+
+The Rhône scenario adds seasons, reserves and water shortages; its water economy is fictional. Solo games, mirrored challenges, duels and cooperation provide different ways to compare decisions.
+
+A local heuristic strategist works without external keys; optional AI providers and an MCP interface let agents act on authorised observations.
 
 ## Journey
 

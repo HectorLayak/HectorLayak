@@ -6,7 +6,11 @@
 
 [All projects](../README.en.md#the-whole-workshop) · [Français](survival-kingdom.md)
 
-SurvivalKingdom develops a survival world in which character needs, equipment, resources and buildings support multiplayer progression. The repository connects this Unreal core to a zone server simulating movement and combat, then a business backend handling economics, trades, presence and operations. A Blazor portal completes the web side. Contract generation connects C# messages to the client’s C++ structures. Systems have implementations and tests at different levels of completeness; playable integration, content and persistent journeys remain development work.
+SurvivalKingdom develops a survival world in which character needs, equipment, resources and buildings support multiplayer progression.
+
+The repository connects this Unreal core to a zone server simulating movement and combat, then a business backend handling economics, trades, presence and operations. A Blazor portal completes the web side. Contract generation connects C# messages to the client’s C++ structures.
+
+Systems have implementations and tests at different levels of completeness; playable integration, content and persistent journeys remain development work.
 
 ## Journey
 

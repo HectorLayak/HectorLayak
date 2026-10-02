@@ -6,7 +6,11 @@
 
 [Tous les projets](../README.md#tout-latelier) · [English](survival-kingdom.en.md)
 
-SurvivalKingdom développe un monde de survie où les besoins du personnage, son équipement, ses ressources et ses constructions s’inscrivent dans une progression multijoueur. Le dépôt relie ce cœur Unreal à un serveur de zone qui simule déplacements et combats, puis à un backend métier chargé notamment de l’économie, des échanges, de la présence et des opérations. Un portail Blazor complète l’ensemble côté web. La génération de contrats relie les messages C# aux structures C++ du client. Les systèmes disposent d’implémentations et de tests à des degrés différents ; l’intégration jouable, les contenus et les parcours persistants restent des chantiers de développement.
+SurvivalKingdom développe un monde de survie où les besoins du personnage, son équipement, ses ressources et ses constructions s’inscrivent dans une progression multijoueur.
+
+Le dépôt relie ce cœur Unreal à un serveur de zone qui simule déplacements et combats, puis à un backend métier chargé notamment de l’économie, des échanges, de la présence et des opérations. Un portail Blazor complète l’ensemble côté web. La génération de contrats relie les messages C# aux structures C++ du client.
+
+Les systèmes disposent d’implémentations et de tests à des degrés différents ; l’intégration jouable, les contenus et les parcours persistants restent des chantiers de développement.
 
 ## Parcours
 

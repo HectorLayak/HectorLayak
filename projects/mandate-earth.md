@@ -6,7 +6,11 @@
 
 [Tous les projets](../README.md#tout-latelier) · [English](mandate-earth.en.md)
 
-MANDATE EARTH place le joueur à la tête d’un consortium dans un scénario organisé autour de villes et de corridors. Il achète des ressources, lance une construction, organise une livraison et négocie des contrats ou des pactes. Un plan peut enchaîner plusieurs étapes et attendre la livraison effective avant d’agir. Le scénario Rhône ajoute saisons, réserves et pénuries d’eau ; son économie hydrique est fictive. Solo, défis miroirs, duels et coopération proposent plusieurs façons de confronter les décisions. Un stratège heuristique fonctionne localement ; des fournisseurs IA et une interface MCP permettent aussi de faire intervenir des agents sur des observations autorisées.
+MANDATE EARTH place le joueur à la tête d’un consortium dans un scénario organisé autour de villes et de corridors. Il achète des ressources, lance une construction, organise une livraison et négocie des contrats ou des pactes. Un plan peut enchaîner plusieurs étapes et attendre la livraison effective avant d’agir.
+
+Le scénario Rhône ajoute saisons, réserves et pénuries d’eau ; son économie hydrique est fictive. Solo, défis miroirs, duels et coopération proposent plusieurs façons de confronter les décisions.
+
+Un stratège heuristique fonctionne localement ; des fournisseurs IA et une interface MCP permettent aussi de faire intervenir des agents sur des observations autorisées.
 
 ## Parcours
 

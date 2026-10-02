@@ -6,7 +6,11 @@
 
 [Tous les projets](../README.md#tout-latelier) · [English](continuum.en.md)
 
-Continuum relie une observation de scène à une décision puis à une commande exécutée dans un environnement contrôlé. La tranche actuelle apprend une politique de navigation en Hector : une perception de formes fournit la géométrie utile, le réseau choisit une direction et l’adaptateur navigateur transmet les touches. Des campagnes comparent imitation et collecte corrective, conservent les échecs et séparent entraînement et évaluation. Le projet étudie aussi les observations vieillies, les courses asynchrones et les refus de commande. Les autres tâches du laboratoire gardent leurs contrôleurs classiques ; la navigation apprise constitue la tranche expérimentale documentée.
+Continuum relie une observation de scène à une décision puis à une commande exécutée dans un environnement contrôlé. La tranche actuelle apprend une politique de navigation en Hector : une perception de formes fournit la géométrie utile, le réseau choisit une direction et l’adaptateur navigateur transmet les touches.
+
+Des campagnes comparent imitation et collecte corrective, conservent les échecs et séparent entraînement et évaluation. Le projet étudie aussi les observations vieillies, les courses asynchrones et les refus de commande.
+
+Les autres tâches du laboratoire gardent leurs contrôleurs classiques ; la navigation apprise constitue la tranche expérimentale documentée.
 
 ## Parcours
 

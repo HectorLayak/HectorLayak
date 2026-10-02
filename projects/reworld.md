@@ -6,7 +6,11 @@
 
 [Tous les projets](../README.md#tout-latelier) · [English](reworld.en.md)
 
-REWORLD commence par un geste concret : choisir un fragment, le tourner et confirmer son placement sur la carte. Le nouvel atlas prend forme au fil des territoires, de leurs routes et de leurs regroupements. Des scénarios introduisent l’estimation géographique ou les compagnies marchandes et leur Conseil ; une campagne organise la progression par chapitres. Le carnet, les sauvegardes et les replays permettent de retrouver et d’examiner une partie. Le Studio sert à composer des scénarios. Le relief stylisé rend le monde lisible tandis que les règles de géométrie et d’économie restent calculées dans des noyaux versionnés.
+REWORLD commence par un geste concret : choisir un fragment, le tourner et confirmer son placement sur la carte. Le nouvel atlas prend forme au fil des territoires, de leurs routes et de leurs regroupements.
+
+Des scénarios introduisent l’estimation géographique ou les compagnies marchandes et leur Conseil ; une campagne organise la progression par chapitres. Le carnet, les sauvegardes et les replays permettent de retrouver et d’examiner une partie.
+
+Le Studio sert à composer des scénarios. Le relief stylisé rend le monde lisible tandis que les règles de géométrie et d’économie restent calculées dans des noyaux versionnés.
 
 ## Parcours
 
