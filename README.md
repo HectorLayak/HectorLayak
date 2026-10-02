@@ -63,7 +63,7 @@ Mon atelier relie **C#/.NET, Rust, TypeScript et C/C++** au logiciel métier, au
 
 ### Les projets
 
-**33 fiches projets**, organisées par terrain. Ouvre un groupe pour parcourir l’atelier, puis une fiche pour son architecture et son périmètre actuel.
+**34 fiches projets**, organisées par terrain. Ouvre un groupe pour parcourir l’atelier, puis une fiche pour son architecture et son périmètre actuel.
 
 <details>
 <summary><strong>Moteurs, IA & agents</strong> · 9 projets</summary>
@@ -98,14 +98,15 @@ Mon atelier relie **C#/.NET, Rust, TypeScript et C/C++** au logiciel métier, au
 </details>
 
 <details>
-<summary><strong>Mondes, jeux & simulation</strong> · 12 projets</summary>
+<summary><strong>Mondes, jeux & simulation</strong> · 13 projets</summary>
 
 | Projet | Le terrain | Repère |
 | :--- | :--- | :--- |
 | [FantasyOnline](https://floriansola.fr/projects/fantasy-online) | MMORPG fantasy Unity et services .NET autoritaires. | Développement |
 | [FantasyOnline.Shared](https://floriansola.fr/projects/fantasy-online-shared) | Socle de contrats, services et adaptateurs réutilisables. | Développement |
-| [Nexus](https://floriansola.fr/projects/nexus) | Expérience Roblox native et control-plane .NET. | Développement |
+| [Nexus / Reclaim City](https://floriansola.fr/projects/nexus) | Reclaim City : récupération, district privé et ville partagée sur Roblox. | Développement |
 | [SurvivalKingdom](https://floriansola.fr/projects/survival-kingdom) | RPG de survie Unreal, serveur de zone et backend .NET. | Développement |
+| [SURVIVALACFU](https://floriansola.fr/projects/survival-acfu) | Prototype Unreal : intégration ACF Ultimate et systèmes SurvivalKingdom. | Prototype |
 | [REWORLD](https://floriansola.fr/projects/reworld) | Géographie, placement, fédérations et atlas navigateur. | Développement |
 | [MANDATE EARTH](https://floriansola.fr/projects/mandate-earth) | Plans agentiques, ressources, logistique et coopération. | Développement |
 | [Symbiont](https://floriansola.fr/projects/symbiont) | Colonie, ressources et écologie d’un monde vivant. | Prototype |

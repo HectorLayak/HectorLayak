@@ -63,7 +63,7 @@ My workshop connects **C#/.NET, Rust, TypeScript and C/C++** with business softw
 
 ### The projects
 
-**33 project pages**, organized by terrain. Open a group to explore the work, then follow a case for its architecture and current scope.
+**34 project pages**, organized by terrain. Open a group to explore the work, then follow a case for its architecture and current scope.
 
 <details>
 <summary><strong>Languages, AI & agents</strong> · 9 projects</summary>
@@ -98,14 +98,15 @@ My workshop connects **C#/.NET, Rust, TypeScript and C/C++** with business softw
 </details>
 
 <details>
-<summary><strong>Worlds, games & simulation</strong> · 12 projects</summary>
+<summary><strong>Worlds, games & simulation</strong> · 13 projects</summary>
 
 | Project | The terrain | Stage |
 | :--- | :--- | :--- |
 | [FantasyOnline](https://floriansola.fr/en/projects/fantasy-online) | Unity fantasy MMORPG and authoritative .NET services. | Development |
 | [FantasyOnline.Shared](https://floriansola.fr/en/projects/fantasy-online-shared) | A reusable foundation of contracts, services and adapters. | Development |
-| [Nexus](https://floriansola.fr/en/projects/nexus) | A native Roblox experience and .NET control plane. | Development |
+| [Nexus / Reclaim City](https://floriansola.fr/en/projects/nexus) | Reclaim City: recovery, a private district and a shared Roblox city. | Development |
 | [SurvivalKingdom](https://floriansola.fr/en/projects/survival-kingdom) | Unreal survival RPG, zone server and .NET backend. | Development |
+| [SURVIVALACFU](https://floriansola.fr/en/projects/survival-acfu) | Unreal prototype: ACF Ultimate integration and SurvivalKingdom systems. | Prototype |
 | [REWORLD](https://floriansola.fr/en/projects/reworld) | Geography, placement, federations and a browser atlas. | Development |
 | [MANDATE EARTH](https://floriansola.fr/en/projects/mandate-earth) | Agentic plans, resources, logistics and cooperation. | Development |
 | [Symbiont](https://floriansola.fr/en/projects/symbiont) | Colony, resources and the ecology of a living world. | Prototype |
