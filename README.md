@@ -1,29 +1,23 @@
-<picture>
-  <source media="(prefers-color-scheme: light)" srcset="assets/editorial/identity-fr-light.svg">
-  <img src="assets/editorial/identity-fr-dark.svg" alt="HectorLayak — Systèmes, produits, mondes." width="100%">
-</picture>
+![HectorLayak — Comprendre. Construire. Faire vivre.](assets/showcase/hero-fr.svg)
 
-<p align="center"><strong>Architecture logicielle · outils de développement · systèmes temps réel</strong></p>
+<p align="center"><a href="#projets-choisis">Six projets</a> · <a href="#la-carte-de-latelier">La carte</a> · <a href="#tout-latelier">33 projets</a> · <a href="https://floriansola.fr">Site personnel ↗</a> · <a href="README.en.md">English</a></p>
 
-<p align="center"><a href="#six-projets-pour-entrer-dans-latelier">Projets choisis</a> · <a href="#inventaire-de-latelier">Inventaire complet</a> · <a href="https://floriansola.fr">Site personnel ↗</a> · <a href="README.en.md">English</a></p>
+Je construis des plateformes métier, des outils pour les développeurs et des mondes en réseau. Du compilateur à l'interface, je travaille les contrats, l'autorité et la cohérence de l'état.
 
-Je construis des logiciels où **le modèle, les règles et l'expérience doivent tenir ensemble** : plateformes métier, outils pour comprendre le code, langages, jeux en réseau et simulations. Mon terrain va de l'exécution bas niveau à l'interface, avec les contrats et la cohérence de l'état comme fil conducteur.
+**C# / .NET · Rust · TypeScript · C / C++**
 
-**C# / .NET · Rust · TypeScript · C / C++**<br>
-Fusion RPC, React, Vue, Unity, Unreal, WebGPU, LLVM / WebAssembly, Linux et infrastructure auto-hébergée.
+## Projets choisis
 
-## Six projets pour entrer dans l'atelier
-
-### 01 / AINDEX
+[![AINDEX — Les agents opèrent. Les humains supervisent le projet.](assets/showcase/aindex-fr.svg)](https://floriansola.fr/projects/aindex)
 
 AINDEX organise le travail des agents autour du projet : missions, contexte du dépôt, changements et vérifications. Le moteur Rust porte l’autorité ; le Studio donne aux humains une vue commune pour superviser et décider.
 
-![Mission → Contexte → Supervision](assets/editorial/aindex-fr.svg)
+<details>
+<summary>Architecture et parcours</summary>
 
 **Une autorité de projet.** Le moteur Rust possède les tâches, les réservations, les validations et leur provenance. Le Studio, l’extension et la passerelle présentent ces contrats ; les interfaces restent alignées sur la même autorité.
 
-<details>
-<summary>Parcours du produit</summary>
+**Le contexte arrive au moment utile.** Une capsule rassemble le contrat complet de la mission et une sélection de références courantes. Un adaptateur d’hôte peut la fournir lors des événements de travail ; la lecture aindex_context sert de point d’accès quand un rafraîchissement est nécessaire.
 
 1. Relier un objectif à une mission, à son périmètre et aux règles du dépôt.
 2. Fournir à l’agent le contexte utile au moment du travail : contrats, dépendances, références et état observé.
@@ -32,18 +26,18 @@ AINDEX organise le travail des agents autour du projet : missions, contexte du d
 
 </details>
 
-[Architecture et projet ↗](https://floriansola.fr/projects/aindex)
+[Explorer le projet ↗](https://floriansola.fr/projects/aindex)
 
-### 02 / HECTOR
+[![HECTOR — Un langage pour exprimer les comportements, compiler et examiner les contrats.](assets/showcase/hector-fr.svg)](https://floriansola.fr/projects/hector)
 
 HECTOR est un langage et un compilateur natif pour auteurs humains et agents. Types, effets et contrats accompagnent des noyaux métier exécutables en natif et WebAssembly.
 
-![Types & contrats → Compilation → Natif / WASM](assets/editorial/hector-fr.svg)
+<details>
+<summary>Architecture et parcours</summary>
 
 **Le compilateur porte la sémantique.** Les unités json, syntax, foundation, core et driver sont écrites en Hector. Le bootstrap reconstruit la chaîne depuis ses seeds ; LLVM assure l’émission native. Les lanceurs dirigent vers cette même autorité.
 
-<details>
-<summary>Parcours du produit</summary>
+**Des contrats observables.** Préconditions, postconditions, effets et identités de source accompagnent l’analyse et l’exécution. Les faits du checker alimentent les contrôles de sélection et de compatibilité avec une référence.
 
 1. Écrire un comportement en Hector avec ses types, effets et clauses de contrat.
 2. Analyser les sources avec le compilateur natif et examiner les faits produits par le checker.
@@ -52,78 +46,81 @@ HECTOR est un langage et un compilateur natif pour auteurs humains et agents. Ty
 
 </details>
 
-[Architecture et projet ↗](https://floriansola.fr/projects/hector)
+[Explorer le projet ↗](https://floriansola.fr/projects/hector)
 
-### 03 / OneRP
+[![OneRP — Un socle SaaS pour exploiter des mondes roleplay FiveM.](assets/showcase/onerp-framework-fr.svg)](https://floriansola.fr/projects/onerp-framework)
 
 OneRP associe un backend SaaS, une administration et des modules FiveM. Personnages, économie, inventaires, véhicules, logements et activités partagent des services métier réactifs et des interfaces React en jeu.
 
-![API & règles → Fusion RPC → FiveM / React](assets/editorial/onerp-framework-fr.svg)
+<details>
+<summary>Architecture et parcours</summary>
 
 **Un état métier réactif.** Fusion relie les lectures à leurs dépendances. Les mutations invalident les données concernées ; les sentinelles propres au joueur limitent les recalculs au périmètre utile.
 
-<details>
-<summary>Parcours du produit</summary>
+**Des opérations économiques transactionnelles.** Les modèles de mutation ouvrent des contextes d'opération et prévoient une isolation sérialisable pour les écritures concurrentes. Les filtres d'instance et contrôles de lecture accompagnent les services métier.
 
 1. Créer et configurer une instance de serveur depuis l'administration.
 2. Accueillir le joueur, choisir son personnage et suivre son arrivée dans le monde.
 3. Interagir avec les métiers, inventaires, banques, véhicules et logements.
 4. Faire valider les actions par les services métier du serveur.
+5. Suivre les états et administrer les instances depuis les interfaces connectées.
 
 </details>
 
-[Architecture et projet ↗](https://floriansola.fr/projects/onerp-framework)
+[Explorer le projet ↗](https://floriansola.fr/projects/onerp-framework)
 
-### 04 / StaffingOS
+[![StaffingOS — Relier missions, temps, frais et préparation des sorties financières.](assets/showcase/staffingos-fr.svg)](https://floriansola.fr/projects/staffingos)
 
 StaffingOS relie les missions chez les clients, les temps, les frais et les absences aux étapes de validation et de préparation financière. Les espaces salarié et gestionnaire partagent les dossiers et leurs règles d'accès.
 
-![Mission client → Temps & frais → Validation](assets/editorial/staffingos-fr.svg)
+<details>
+<summary>Architecture et parcours</summary>
 
 **Un dossier, plusieurs responsabilités.** Le salarié, le responsable, les RH et la comptabilité interviennent sur les mêmes dossiers avec des droits et des périmètres explicites. Les règles de mission, de temps et d'absence sont partagées entre interfaces.
 
-<details>
-<summary>Parcours du produit</summary>
+**Des écritures traçables.** La création d'une mission associe empreinte de commande, versions, audit et événements durables dans une transaction. Les reprises distinguent une nouvelle action du rejeu d'une action déjà enregistrée.
 
 1. Enregistrer le client, son site, le besoin et la personne affectée.
 2. Créer la mission avec ses dates et ses versions tarifaires.
 3. Saisir les temps, frais et demandes d'absence depuis les espaces autorisés.
 4. Examiner les demandes et exceptions dans les circuits de validation.
+5. Préparer les lots de prépaie et préfacturation, puis enregistrer les preuves de règlement.
 
 </details>
 
-[Architecture et projet ↗](https://floriansola.fr/projects/staffingos)
+[Explorer le projet ↗](https://floriansola.fr/projects/staffingos)
 
-### 05 / RoadTripper
+[![RoadTripper — Un programme commun, une carte et un copilote pour voyager à plusieurs.](assets/showcase/roadtripper-fr.svg)](https://floriansola.fr/projects/roadtripper)
 
 Un carnet de voyage partagé pour construire ses journées, explorer les lieux sur une carte, organiser le groupe et suivre ses dépenses. Le copilote propose des changements que les voyageurs peuvent relire avant de les adopter.
 
-![Programme → Carte & groupe → Voyage](assets/editorial/roadtripper-fr.svg)
+<details>
+<summary>Architecture et parcours</summary>
 
 **Le jour reste le point d'ancrage.** L'accueil, le programme et la carte partagent la journée et les identifiants d'étapes. Sur mobile, la prochaine action précède les outils secondaires ; une fiche se consulte avant d'être modifiée.
 
-<details>
-<summary>Parcours du produit</summary>
+**Un calcul commun au client et au serveur.** Le domaine du carnet reste indépendant de l'interface. Hector, compilé en WebAssembly, porte les calculs déterministes de planning, budget et progression ; la passerelle valide à nouveau les données reçues.
 
-1. Composer le voyage
-2. Passer du programme à la carte
-3. Préparer le départ ensemble
-4. Faire évoluer le parcours
+1. Composer le voyage — Créer un carnet avec les dates et les préférences, répartir les étapes par journée, puis ajouter les lieux, pauses et nuitées.
+2. Passer du programme à la carte — Choisir une journée, ouvrir une étape en lecture et la retrouver sur la carte sans perdre sa sélection. Calculer ou actualiser le trajet quand un fournisseur est configuré.
+3. Préparer le départ ensemble — Inviter les membres avec un rôle, affecter les voyageurs aux voitures, vérifier la préparation et rassembler réservations, documents et budget.
+4. Faire évoluer le parcours — Proposer un lieu au groupe ou demander au copilote un détour. Relire les changements sur le carnet courant avant leur adoption ; partager sa position seulement après accord.
+5. Garder les comptes lisibles — Enregistrer les dépenses, leurs parts et les remboursements déclarés ; distinguer les montants engagés, estimés et réellement saisis.
 
 </details>
 
-[Architecture et projet ↗](https://floriansola.fr/projects/roadtripper)
+[Explorer le projet ↗](https://floriansola.fr/projects/roadtripper)
 
-### 06 / Poisson Engine
+[![Poisson Engine — Un écosystème vivant simulé dans le navigateur.](assets/showcase/poisson-engine-fr.svg)](https://floriansola.fr/projects/poisson-engine)
 
 Poisson simule bancs, prédation, métabolisme et mutations dans le navigateur. Le moteur sépare le calcul WebGPU/CPU du rendu WebGL/Canvas2D et sert des modes d’observation, de sandbox et de jeu.
 
-![Agents → Calcul WebGPU → Observation](assets/editorial/poisson-engine-fr.svg)
+<details>
+<summary>Architecture et parcours</summary>
 
 **Calcul et rendu évoluent séparément.** WebGPU accélère le calcul de simulation, avec un chemin CPU quand il est indisponible. Le rendu choisit WebGL ou Canvas2D. Cette séparation permet d’adapter le travail et la présentation aux capacités du navigateur.
 
-<details>
-<summary>Parcours du produit</summary>
+**Organiser les données pour le parallélisme.** Tableaux typés, structures SoA, grille spatiale, prefix-sum et réordonnancement rapprochent les agents voisins en mémoire. Le pipeline GPU traite les forces de banc et de chasse avant l’intégration physique.
 
 1. Choisir un mode et observer les bancs, prédateurs et ressources de l’écosystème.
 2. Modifier les paramètres et suivre les effets sur les déplacements, l’énergie et la reproduction.
@@ -132,20 +129,17 @@ Poisson simule bancs, prédation, métabolisme et mutations dans le navigateur. 
 
 </details>
 
-[Architecture et projet ↗](https://floriansola.fr/projects/poisson-engine)
+[Explorer le projet ↗](https://floriansola.fr/projects/poisson-engine)
 
-## Questions d'ingénierie
+## La carte de l’atelier
 
-| Terrain | Ce que je travaille |
-| :--- | :--- |
-| **Contrats & domaine** | Invariants métier, transactions, frontières de tenants et formes des données. |
-| **IA & outils** | Recherche de contexte, évaluation et contrôle de l'exécution des agents. |
-| **Temps réel & mondes** | Autorité serveur, persistance, synchronisation et comportements collectifs. |
-| **Interfaces & exploitation** | Parcours utilisateur, observabilité, livraison et reprise. |
+![Code, produits, mondes et opérations ; Hector fournit le moteur WASM de RoadTripper.](assets/showcase/ecosystem-fr.svg)
 
-## Inventaire de l'atelier
+**Un lien concret entre les terrains :** RoadTripper utilise Hector en WebAssembly pour ses calculs de planning, de budget et de progression.
 
-**33 projets**, des produits métier aux moteurs, en passant par la recherche, les collaborations et les outils. Chaque lien mène à la présentation du projet.
+## Tout l’atelier
+
+**33 projets**, organisés en quatre terrains. Produits, recherche, outils et collaborations.
 
 <details>
 <summary><strong>Moteurs, IA & agents</strong> · 9 projets</summary>
@@ -157,7 +151,7 @@ Poisson simule bancs, prédation, métabolisme et mutations dans le navigateur. 
 | [Continuum](https://floriansola.fr/projects/continuum) | Apprendre à naviguer, puis mesurer les décisions dans un laboratoire reproductible. |
 | [PromptVault](https://floriansola.fr/projects/promptvault) | Transformer les prompts d’une équipe en outils réutilisables |
 | [Matchr](https://floriansola.fr/projects/matchr) | Une offre, un CV ciblé, un dossier de candidature suivi. |
-| [GeopolAI / ModelRisk](https://floriansola.fr/projects/geopolai) | Comparaison de décisions et observation des biais de modèles. |
+| [ModelRisk Observatory · GeopolAI](https://floriansola.fr/projects/geopolai) | Comparer les réponses de modèles IA sur des scénarios contrôlés |
 | [AISelector](https://floriansola.fr/projects/ai-selector) | Un contrat commun pour appeler plusieurs fournisseurs IA |
 | [Vouch](https://floriansola.fr/projects/vouch) | Préparer des réponses de sécurité à partir de sources traçables |
 | [Vision Security Lab](https://floriansola.fr/projects/vision-security-lab) | Observer des comportements automatisés à partir de l’image. |
@@ -185,9 +179,9 @@ Poisson simule bancs, prédation, métabolisme et mutations dans le navigateur. 
 | :--- | :--- |
 | [FantasyOnline](https://floriansola.fr/projects/fantasy-online) | Un monde fantasy persistant, du terrain généré aux règles serveur. |
 | [FantasyOnline.Shared](https://floriansola.fr/projects/fantasy-online-shared) | Partager les contrats et les règles, avec une adoption explicite par jeu. |
-| [Nexus / Reclaim City](https://floriansola.fr/projects/nexus) | Reclaim City : récupération, district privé et ville partagée sur Roblox. |
+| [Nexus / Reclaim City](https://floriansola.fr/projects/nexus) | Récupérer des épaves et reconstruire un district à son image. |
 | [SurvivalKingdom](https://floriansola.fr/projects/survival-kingdom) | Relier la survie, un monde multijoueur et les services qui le font durer. |
-| [Survival Unreal](https://floriansola.fr/projects/survival-acfu) | Systèmes Unreal : serveur de zone, HUD et progression. |
+| [Survival Unreal](https://floriansola.fr/projects/survival-acfu) | Un monde de survie relié à ses propres services de jeu. |
 | [REWORLD](https://floriansola.fr/projects/reworld) | Composer un atlas, relier ses territoires et écrire leur histoire. |
 | [MANDATE EARTH](https://floriansola.fr/projects/mandate-earth) | Préparer un plan, engager des ressources et en suivre les conséquences. |
 | [Symbiont](https://floriansola.fr/projects/symbiont) | Faire grandir une colonie sans épuiser le monde qui la nourrit. |
