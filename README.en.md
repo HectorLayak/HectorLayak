@@ -2,9 +2,9 @@
 
 <p align="center"><a href="#selected-projects">Six projects</a> · <a href="#the-workshop-map">The map</a> · <a href="#the-whole-workshop">33 projects</a> · <a href="https://floriansola.fr/en">Studio &amp; services ↗</a> · <a href="README.md">Français</a></p>
 
-I build business platforms, developer tools and networked worlds. From the compiler to the interface, I work on contracts, authority and state consistency.
+I build applied AI tools, .NET platforms and real-time systems. My projects explore agent orchestration, executable contracts, networking engines and simulation, with one recurring concern: keeping state, performance and component boundaries explicit.
 
-**C# / .NET · Rust · TypeScript · C / C++**
+**C# / .NET · Rust · Python · TypeScript · C / C++**
 
 ## Selected projects
 

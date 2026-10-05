@@ -2,9 +2,9 @@
 
 <p align="center"><a href="#projets-choisis">Six projets</a> · <a href="#la-carte-de-latelier">La carte</a> · <a href="#tout-latelier">33 projets</a> · <a href="https://floriansola.fr">Studio &amp; services ↗</a> · <a href="README.en.md">English</a></p>
 
-Je construis des plateformes métier, des outils pour les développeurs et des mondes en réseau. Du compilateur à l'interface, je travaille les contrats, l'autorité et la cohérence de l'état.
+Je construis des outils d’IA appliquée, des plateformes .NET et des systèmes temps réel. Mes projets explorent l’orchestration d’agents, les contrats exécutables, les moteurs réseau et la simulation, avec un fil rouge : maîtriser l’état, les performances et les frontières entre composants.
 
-**C# / .NET · Rust · TypeScript · C / C++**
+**C# / .NET · Rust · Python · TypeScript · C / C++**
 
 ## Projets choisis
 
