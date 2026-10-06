@@ -1,18 +1,16 @@
-![AINDEX](../assets/projects/aindex.cover.svg)
-
 # AINDEX
 
-**Les agents opèrent. Les humains supervisent le projet.**
+**Confier le travail aux agents. Garder la maîtrise du projet.**
 
 [Tous les projets](../README.md#tout-latelier) · [English](aindex.en.md)
 
-AINDEX relie l’objectif d’un projet au travail des agents et aux décisions humaines. Ses parcours de pilotage, missions, contexte, code, vérification et exécution composent un même produit : le dépôt devient un espace de travail dont les règles, les dépendances et les preuves restent consultables.
+![AINDEX — supervision en démonstration](../assets/captures/aindex-supervision.jpg)
 
-Le moteur natif conserve l’autorité sur les tâches, les réservations et les validations. Il fournit les observations courantes à une couche de contexte qui rassemble le contrat de la mission et les références utiles. Les changements de session, de fichiers ou de situation peuvent déclencher une nouvelle capsule ; les contrôles d’identité, de révision et de fraîcheur accompagnent sa composition.
+AINDEX organise le développement avec des agents autour d’un même projet. Un objectif devient des missions reliées à un périmètre, aux dépendances du code et aux décisions à prendre. L’équipe peut suivre le travail, examiner les changements et intervenir là où son jugement compte.
 
-L’humain suit la progression depuis le Studio et ses surfaces de consultation : changements, activité des agents, relations entre missions, provenance du contexte et éléments à examiner. L’extension rapproche ces informations de l’éditeur. La passerelle distante encadre les lectures privées par organisation ; les services de compte, d’équipe et de licence constituent une frontière séparée de l’autorité sur le code.
+Le moteur Rust indexe les symboles et leurs relations. Il compose un contexte ciblé à partir de la mission, de l’état du dépôt et des références utiles. La capsule accompagne le travail de l’agent ; le Studio et l’extension permettent à l’humain de comprendre sa provenance et ce qui a changé.
 
-Le développement associe ainsi orchestration agentique, compréhension du dépôt et supervision humaine. Les parcours d’intégration préparent une copie indépendante, exécutent les vérifications autorisées et présentent leurs résultats à la décision.
+La supervision rassemble avancement, activité, contexte, questions et vérifications. L’atelier d’intégration prépare un espace indépendant pour examiner un changement. Le compte commercial, les licences et les accès d’équipe complètent le produit avec une frontière distincte de l’autorité sur le code.
 
 ## Parcours
 
@@ -23,20 +21,18 @@ Le développement associe ainsi orchestration agentique, compréhension du dép�
 
 ## Décisions de conception
 
-### Une autorité de projet
+### Une mission reliée au code
 
-Le moteur Rust possède les tâches, les réservations, les validations et leur provenance. Le Studio, l’extension et la passerelle présentent ces contrats ; les interfaces restent alignées sur la même autorité.
+Objectif, périmètre et dépendances partagent le même contexte. L’index relie symboles, appels et références utiles au travail demandé.
 
-### Le contexte arrive au moment utile
+### Le bon contexte au bon moment
 
-Une capsule rassemble le contrat complet de la mission et une sélection de références courantes. Un adaptateur d’hôte peut la fournir lors des événements de travail ; la lecture aindex_context sert de point d’accès quand un rafraîchissement est nécessaire.
+Une capsule rassemble les obligations et les sources pertinentes. Sa provenance et sa fraîcheur restent consultables pendant la mission.
 
-## Technologies
+### La supervision au service de la décision
 
-Rust · TypeScript · PostgreSQL · Studio · Extension éditeur
-
-![AINDEX — parcours et architecture](../assets/projects/aindex.svg)
+Le Studio montre ce qui avance, ce qui change et ce qui mérite attention. L’équipe retrouve questions, résultats et éléments de revue dans le même parcours.
 
 **État :** En développement · moteur natif et supervision humaine.
 
-[Retour à l’atelier](../README.md#tout-latelier) · [Studio & services ↗](https://floriansola.fr)
+[Studio & services ↗](https://floriansola.fr/projects/aindex)

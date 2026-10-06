@@ -1,42 +1,36 @@
-![HECTOR](../assets/projects/hector.cover.en.svg)
-
 # HECTOR
 
-**A language for expressing behavior, compiling it and inspecting contracts.**
+**Describe the need. Build the mechanics.**
 
 [All projects](../README.en.md#the-whole-workshop) · [Français](hector.md)
 
-HECTOR explores a development chain in which authors express behavior and its obligations, then inspect the resulting mechanics. The work connects language design, native compilation, execution contracts and integration into consuming software.
+HECTOR starts with an idea: authors should express expected behavior, constraints and permitted transformations. Types, units, effects and contracts make that intent explicit. The language also targets agents, whose proposals become inspectable by the compiler.
 
-The compiler consists of units written in Hector. Bootstrap assembles seeds and rebuilds generations; typed components lead to LLVM and platform boundaries. Python provides build tooling, references and independent oracles. Node transports protocols and hosts WebAssembly libraries.
+The project combines a language, a native compiler written in Hector and libraries consumed natively or through WebAssembly. Collections, ledgers and numerical kernels provide concrete applications. A lookup rule can lead to a scan or an index according to declared freedoms and workload.
 
-The foundation includes preconditions, postconditions, explicit effects, checked computations, collections and data profiles. Ledger kernels provide a concrete setting for preparation, publication and interoperability. Native analysis derives publication facts, while a separate gate compares signatures, types, effects and clauses against a verified reference.
+The ambition is to compare implementations of the same behavior by time, memory or simplicity. The compiler and its contracts exist; research into behavioral equivalence and implementation selection continues.
 
-Research advances through bounded workflows: language, library, consumer and qualification. The next boundary concerns the behavioral relationship between implementations, beyond interface compatibility.
+## Journeys
 
-## Journey
+1. Describe data, behavior and constraints.
+2. Declare permitted transformations.
+3. Inspect types, effects and contracts with the native compiler.
+4. Integrate and measure the compiled kernel in its application.
 
-1. Express behavior in Hector with its types, effects and contract clauses.
-2. Analyze sources with the native compiler and inspect facts produced by the checker.
-3. Build a native or WebAssembly library for an external consumer.
-4. Compare interfaces and publication properties, then qualify the workflow on its target host.
+## Design choices
 
-## Design decisions
+### Behavior before mechanics
 
-### The compiler owns semantics
+Declare values, results and obligations, along with permitted changes to representation, fusion or independent ordering.
 
-The json, syntax, foundation, core and driver units are written in Hector. Bootstrap rebuilds the chain from its seeds; LLVM handles native emission. Launchers direct work to the same authority.
+### For humans and agents
 
-### Observable contracts
+Types, effects and contracts make proposals inspectable. An agent proposes a change; the compiler reports the contradictions it can detect.
 
-Preconditions, postconditions, effects and source identities accompany analysis and execution. Checker facts feed selection and compatibility checks against a reference.
+### Reusable kernels
 
-## Technology
+The same sources produce native and WebAssembly libraries. Interfaces and compiler identities accompany their integration into applications.
 
-HECTOR · LLVM · WebAssembly · C/C++ · Python
+**Stage :** Applied research · native compiler and WebAssembly kernels.
 
-![HECTOR — journey and architecture](../assets/projects/hector.en.svg)
-
-**Status :** Applied research · native compiler and WebAssembly kernels.
-
-[Back to the workshop](../README.en.md#the-whole-workshop) · [Studio & services ↗](https://floriansola.fr/en)
+[Studio & services ↗](https://floriansola.fr/en/projects/hector)

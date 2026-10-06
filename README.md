@@ -8,41 +8,41 @@ Je construis des outils d’IA appliquée, des plateformes .NET et des systèmes
 
 ## Projets choisis
 
-[![AINDEX — Les agents opèrent. Les humains supervisent le projet.](assets/showcase/aindex-fr.svg)](projects/aindex.md)
+[![AINDEX — Confier le travail aux agents. Garder la maîtrise du projet.](assets/captures/aindex-supervision.jpg)](projects/aindex.md)
 
-AINDEX organise le travail des agents autour du projet : missions, contexte du dépôt, changements et vérifications. Le moteur Rust porte l’autorité ; le Studio donne aux humains une vue commune pour superviser et décider.
+**Confier le travail aux agents. Garder la maîtrise du projet.**
+
+AINDEX organise le développement avec des agents autour d’un même projet. Un objectif devient des missions reliées à un périmètre, aux dépendances du code et aux décisions à prendre. L’équipe peut suivre le travail, examiner les changements et intervenir là où son jugement compte.
+
+*Supervision réelle · projet fictif en mode démonstration.*
 
 <details>
-<summary>Architecture et parcours</summary>
+<summary>Architecture et idées</summary>
 
-**Une autorité de projet.** Le moteur Rust possède les tâches, les réservations, les validations et leur provenance. Le Studio, l’extension et la passerelle présentent ces contrats ; les interfaces restent alignées sur la même autorité.
+**Une mission reliée au code.** Objectif, périmètre et dépendances partagent le même contexte. L’index relie symboles, appels et références utiles au travail demandé.
 
-**Le contexte arrive au moment utile.** Une capsule rassemble le contrat complet de la mission et une sélection de références courantes. Un adaptateur d’hôte peut la fournir lors des événements de travail ; la lecture aindex_context sert de point d’accès quand un rafraîchissement est nécessaire.
+**Le bon contexte au bon moment.** Une capsule rassemble les obligations et les sources pertinentes. Sa provenance et sa fraîcheur restent consultables pendant la mission.
 
-1. Relier un objectif à une mission, à son périmètre et aux règles du dépôt.
-2. Fournir à l’agent le contexte utile au moment du travail : contrats, dépendances, références et état observé.
-3. Suivre les changements et l’activité dans une supervision humaine commune au Studio et à ses lecteurs.
-4. Examiner les vérifications, résoudre les contradictions et prendre la décision d’intégration.
+**La supervision au service de la décision.** Le Studio montre ce qui avance, ce qui change et ce qui mérite attention. L’équipe retrouve questions, résultats et éléments de revue dans le même parcours.
 
 </details>
 
 [Explorer le projet ↗](projects/aindex.md)
 
-[![HECTOR — Un langage pour exprimer les comportements, compiler et examiner les contrats.](assets/showcase/hector-fr.svg)](projects/hector.md)
+[![HECTOR — Décrire le besoin. Construire la mécanique.](assets/showcase/hector-fr.svg)](projects/hector.md)
 
-HECTOR est un langage et un compilateur natif pour auteurs humains et agents. Types, effets et contrats accompagnent des noyaux métier exécutables en natif et WebAssembly.
+**Décrire le besoin. Construire la mécanique.**
+
+HECTOR part d’une idée : l’auteur doit pouvoir exprimer le comportement attendu, ses contraintes et les transformations autorisées. Types, unités, effets et contrats donnent une forme explicite à cette intention. Le langage vise aussi les agents : leurs propositions deviennent examinables par le compilateur.
 
 <details>
-<summary>Architecture et parcours</summary>
+<summary>Architecture et idées</summary>
 
-**Le compilateur porte la sémantique.** Les unités json, syntax, foundation, core et driver sont écrites en Hector. Le bootstrap reconstruit la chaîne depuis ses seeds ; LLVM assure l’émission native. Les lanceurs dirigent vers cette même autorité.
+**Le comportement avant la mécanique.** Déclarer les valeurs, les résultats et les obligations. L’auteur précise aussi les libertés : représentation, fusion ou ordre indépendant.
 
-**Des contrats observables.** Préconditions, postconditions, effets et identités de source accompagnent l’analyse et l’exécution. Les faits du checker alimentent les contrôles de sélection et de compatibilité avec une référence.
+**Un langage pour humains et agents.** Les types, effets et contrats rendent les propositions analysables. L’agent propose un changement ; le compilateur expose les contradictions qu’il sait détecter.
 
-1. Écrire un comportement en Hector avec ses types, effets et clauses de contrat.
-2. Analyser les sources avec le compilateur natif et examiner les faits produits par le checker.
-3. Construire une bibliothèque native ou WebAssembly pour un consommateur externe.
-4. Comparer les interfaces et les propriétés de publication, puis qualifier le parcours sur son hôte cible.
+**Un noyau réutilisable.** Les mêmes sources produisent des bibliothèques natives et WebAssembly. Les interfaces et les identités de compilation accompagnent leur intégration dans les applications.
 
 </details>
 

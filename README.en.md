@@ -8,41 +8,41 @@ I build applied AI tools, .NET platforms and real-time systems. My projects expl
 
 ## Selected projects
 
-[![AINDEX — Agents do the work. Humans oversee the project.](assets/showcase/aindex-en.svg)](projects/aindex.en.md)
+[![AINDEX — Let agents do the work. Keep control of the project.](assets/captures/aindex-supervision.jpg)](projects/aindex.en.md)
 
-AINDEX organizes agent work around the project: missions, repository context, changes and verification. A Rust engine owns the project authority; Studio gives humans a shared view for supervision and decisions.
+**Let agents do the work. Keep control of the project.**
+
+AINDEX organises agent-assisted development around one project. An objective becomes missions linked to scope, code dependencies and decisions. Teams follow the work, inspect changes and intervene where their judgment matters.
+
+*Real supervision interface · fictional demonstration project.*
 
 <details>
-<summary>Architecture and journey</summary>
+<summary>Architecture and ideas</summary>
 
-**One project authority.** The Rust engine owns tasks, reservations, validation and provenance. Studio, the extension and the gateway present these contracts, keeping every interface aligned with the same authority.
+**A mission connected to code.** Objectives, scope and dependencies share one context. The index connects symbols, calls and references to the requested work.
 
-**Context at the point of work.** A capsule combines the complete mission contract with selected current references. A host adapter can supply it on work events; aindex_context provides a reading entry point when a refresh is needed.
+**Useful context at the right time.** A capsule combines obligations and relevant sources. Provenance and freshness remain inspectable throughout the mission.
 
-1. Connect an objective to a mission, its scope and the repository’s rules.
-2. Give the agent useful context when work happens: contracts, dependencies, references and observed state.
-3. Follow changes and agent activity through the supervision components shared by Studio and its viewers.
-4. Inspect verification results, resolve contradictions and make the integration decision.
+**Supervision supports decisions.** Studio shows progress, changes and items needing attention. Questions, results and review material belong to the same workflow.
 
 </details>
 
 [Explore the project ↗](projects/aindex.en.md)
 
-[![HECTOR — A language for expressing behavior, compiling it and inspecting contracts.](assets/showcase/hector-en.svg)](projects/hector.en.md)
+[![HECTOR — Describe the need. Build the mechanics.](assets/showcase/hector-en.svg)](projects/hector.en.md)
 
-HECTOR is a language and native compiler for human authors and agents. Types, effects and contracts accompany business kernels targeting native execution and WebAssembly.
+**Describe the need. Build the mechanics.**
+
+HECTOR starts with an idea: authors should express expected behavior, constraints and permitted transformations. Types, units, effects and contracts make that intent explicit. The language also targets agents, whose proposals become inspectable by the compiler.
 
 <details>
-<summary>Architecture and journey</summary>
+<summary>Architecture and ideas</summary>
 
-**The compiler owns semantics.** The json, syntax, foundation, core and driver units are written in Hector. Bootstrap rebuilds the chain from its seeds; LLVM handles native emission. Launchers direct work to the same authority.
+**Behavior before mechanics.** Declare values, results and obligations, along with permitted changes to representation, fusion or independent ordering.
 
-**Observable contracts.** Preconditions, postconditions, effects and source identities accompany analysis and execution. Checker facts feed selection and compatibility checks against a reference.
+**For humans and agents.** Types, effects and contracts make proposals inspectable. An agent proposes a change; the compiler reports the contradictions it can detect.
 
-1. Express behavior in Hector with its types, effects and contract clauses.
-2. Analyze sources with the native compiler and inspect facts produced by the checker.
-3. Build a native or WebAssembly library for an external consumer.
-4. Compare interfaces and publication properties, then qualify the workflow on its target host.
+**Reusable kernels.** The same sources produce native and WebAssembly libraries. Interfaces and compiler identities accompany their integration into applications.
 
 </details>
 

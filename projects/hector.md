@@ -1,42 +1,36 @@
-![HECTOR](../assets/projects/hector.cover.svg)
-
 # HECTOR
 
-**Un langage pour exprimer les comportements, compiler et examiner les contrats.**
+**Décrire le besoin. Construire la mécanique.**
 
 [Tous les projets](../README.md#tout-latelier) · [English](hector.en.md)
 
-HECTOR explore une chaîne de développement où l’auteur exprime un comportement et ses obligations, puis examine la mécanique produite. Le travail associe conception de langage, compilation native, contrats d’exécution et intégration dans des logiciels consommateurs.
+HECTOR part d’une idée : l’auteur doit pouvoir exprimer le comportement attendu, ses contraintes et les transformations autorisées. Types, unités, effets et contrats donnent une forme explicite à cette intention. Le langage vise aussi les agents : leurs propositions deviennent examinables par le compilateur.
 
-Le compilateur est structuré en unités écrites en Hector. Son bootstrap assemble les seeds et reconstruit les générations ; les composants typés conduisent vers LLVM et les frontières de la plateforme. Python fournit les outils de construction, les références et les oracles indépendants ; Node transporte les protocoles et héberge les bibliothèques WebAssembly.
+Le projet réunit un langage, un compilateur natif écrit en Hector et des bibliothèques consommables en natif ou en WebAssembly. Collections, registres et calculs constituent des applications concrètes. Une même règle de recherche peut, par exemple, conduire à un parcours ou à un index selon les libertés déclarées et le profil de charge.
 
-Le socle comprend préconditions, postconditions, effets explicites, calculs contrôlés, collections et profils de données. Les noyaux de registre offrent un terrain concret pour la préparation, la publication et l’interopérabilité. Une analyse native dérive les faits de publication ; une gate distincte compare signatures, types, effets et clauses avec une référence vérifiée.
-
-La recherche progresse par parcours délimités : langage, bibliothèque, consommateur et qualification. La prochaine frontière concerne la relation comportementale entre réalisations, au-delà de la compatibilité de leurs interfaces.
+L’ambition est de comparer plusieurs réalisations d’un même comportement selon le temps, la mémoire ou la simplicité. Le compilateur et ses contrats existent ; la recherche sur l’équivalence comportementale et le choix des réalisations continue.
 
 ## Parcours
 
-1. Écrire un comportement en Hector avec ses types, effets et clauses de contrat.
-2. Analyser les sources avec le compilateur natif et examiner les faits produits par le checker.
-3. Construire une bibliothèque native ou WebAssembly pour un consommateur externe.
-4. Comparer les interfaces et les propriétés de publication, puis qualifier le parcours sur son hôte cible.
+1. Décrire les données, le comportement et ses contraintes.
+2. Déclarer les transformations admissibles.
+3. Examiner types, effets et contrats avec le compilateur natif.
+4. Intégrer et mesurer le noyau compilé dans son application.
 
 ## Décisions de conception
 
-### Le compilateur porte la sémantique
+### Le comportement avant la mécanique
 
-Les unités json, syntax, foundation, core et driver sont écrites en Hector. Le bootstrap reconstruit la chaîne depuis ses seeds ; LLVM assure l’émission native. Les lanceurs dirigent vers cette même autorité.
+Déclarer les valeurs, les résultats et les obligations. L’auteur précise aussi les libertés : représentation, fusion ou ordre indépendant.
 
-### Des contrats observables
+### Un langage pour humains et agents
 
-Préconditions, postconditions, effets et identités de source accompagnent l’analyse et l’exécution. Les faits du checker alimentent les contrôles de sélection et de compatibilité avec une référence.
+Les types, effets et contrats rendent les propositions analysables. L’agent propose un changement ; le compilateur expose les contradictions qu’il sait détecter.
 
-## Technologies
+### Un noyau réutilisable
 
-HECTOR · LLVM · WebAssembly · C/C++ · Python
-
-![HECTOR — parcours et architecture](../assets/projects/hector.svg)
+Les mêmes sources produisent des bibliothèques natives et WebAssembly. Les interfaces et les identités de compilation accompagnent leur intégration dans les applications.
 
 **État :** Recherche appliquée · compilateur natif et noyaux WebAssembly.
 
-[Retour à l’atelier](../README.md#tout-latelier) · [Studio & services ↗](https://floriansola.fr)
+[Studio & services ↗](https://floriansola.fr/projects/hector)

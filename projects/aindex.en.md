@@ -1,42 +1,38 @@
-![AINDEX](../assets/projects/aindex.cover.en.svg)
-
 # AINDEX
 
-**Agents do the work. Humans oversee the project.**
+**Let agents do the work. Keep control of the project.**
 
 [All projects](../README.en.md#the-whole-workshop) · [Français](aindex.md)
 
-AINDEX connects project objectives to agent work and human decisions. Planning, missions, context, code, verification and execution form one product: a repository becomes a workspace whose rules, dependencies and evidence remain available to inspect.
+![AINDEX — demonstration supervision interface](../assets/captures/aindex-supervision.jpg)
 
-The native engine owns tasks, reservations and validation. Its current observations feed a context layer that assembles the mission contract and useful references. Changes in sessions, files or work situations can trigger a new capsule, with identity, revision and freshness checks supporting its composition.
+AINDEX organises agent-assisted development around one project. An objective becomes missions linked to scope, code dependencies and decisions. Teams follow the work, inspect changes and intervene where their judgment matters.
 
-Humans follow progress through Studio and its viewers: changes, agent activity, mission relationships, context provenance and items requiring attention. An extension brings these observations into the editor. A remote gateway controls private reads by organization; account, team and license services form a separate boundary from source code authority.
+The Rust engine indexes symbols and relationships. It composes focused context from the mission, repository state and relevant references. A capsule accompanies the agent; Studio and the editor extension let humans inspect its provenance and what changed.
 
-The product brings together agentic project management, repository understanding and human supervision. Integration workflows prepare an independent copy, run authorized checks and present their results for a decision.
+Supervision brings together progress, activity, context, questions and checks. The integration workshop prepares an independent space for reviewing a change. Commercial accounts, licensing and team access complete the product while retaining a separate boundary from code authority.
 
-## Journey
+## Journeys
 
 1. Connect an objective to a mission, its scope and the repository’s rules.
 2. Give the agent useful context when work happens: contracts, dependencies, references and observed state.
 3. Follow changes and agent activity through the supervision components shared by Studio and its viewers.
 4. Inspect verification results, resolve contradictions and make the integration decision.
 
-## Design decisions
+## Design choices
 
-### One project authority
+### A mission connected to code
 
-The Rust engine owns tasks, reservations, validation and provenance. Studio, the extension and the gateway present these contracts, keeping every interface aligned with the same authority.
+Objectives, scope and dependencies share one context. The index connects symbols, calls and references to the requested work.
 
-### Context at the point of work
+### Useful context at the right time
 
-A capsule combines the complete mission contract with selected current references. A host adapter can supply it on work events; aindex_context provides a reading entry point when a refresh is needed.
+A capsule combines obligations and relevant sources. Provenance and freshness remain inspectable throughout the mission.
 
-## Technology
+### Supervision supports decisions
 
-Rust · TypeScript · PostgreSQL · Studio · Editor extension
+Studio shows progress, changes and items needing attention. Questions, results and review material belong to the same workflow.
 
-![AINDEX — journey and architecture](../assets/projects/aindex.en.svg)
+**Stage :** In development · native engine and human supervision.
 
-**Status :** In development · native engine and human supervision.
-
-[Back to the workshop](../README.en.md#the-whole-workshop) · [Studio & services ↗](https://floriansola.fr/en)
+[Studio & services ↗](https://floriansola.fr/en/projects/aindex)
