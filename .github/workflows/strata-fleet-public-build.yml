@@ -2,11 +2,14 @@ name: Temporary Strata Fleet public inputs
 on:
   push:
     branches: [main]
+    paths-ignore:
+      - .github/workflows/strata-fleet-public-build.yml
+  workflow_dispatch:
 permissions:
   contents: read
 jobs:
   build:
-    runs-on: ubuntu-24.04
+    runs-on: vps-linux
     timeout-minutes: 30
     env:
       STRATA_SHA: '30ec18ec7094550fcc594fd948220d511d80464e'
