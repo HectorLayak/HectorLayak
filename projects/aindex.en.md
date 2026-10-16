@@ -1,38 +1,32 @@
 # AINDEX
 
-**Let agents do the work. Keep control of the project.**
+**Agents do the work. Humans oversee the project.**
 
 [All projects](../README.en.md#the-whole-workshop) · [Français](aindex.md)
 
-![AINDEX — demonstration supervision interface](../assets/captures/aindex-supervision.jpg)
+![AINDEX: mission, project-authority engine and human supervision](../assets/atelier/aindex-en.svg)
 
-AINDEX organises agent-assisted development around one project. An objective becomes missions linked to scope, code dependencies and decisions. Teams follow the work, inspect changes and intervene where their judgment matters.
+Delegating development to agents means connecting each change to a request, authorized files and verification. AINDEX brings those elements together: goals, missions, code context, execution and reviewable results.
 
-The Rust engine indexes symbols and relationships. It composes focused context from the mission, repository state and relevant references. A capsule accompanies the agent; Studio and the editor extension let humans inspect its provenance and what changed.
+The Rust engine indexes symbols and their relationships. It also owns project authority: tasks, permissions, work reservations and validation. The context layer supplies the mission contract and useful references, then rereads project state on resumption. Reading context does not grant permission to change code.
 
-Supervision brings together progress, activity, context, questions and checks. The integration workshop prepares an independent space for reviewing a change. Commercial accounts, licensing and team access complete the product while retaining a separate boundary from code authority.
+## A mission connected to the project
 
-## Journeys
+1. Connect the request to a goal, scope and repository rules.
+2. Provide the contracts, dependencies, references and observations useful to the work.
+3. Follow activity, changes and verification through shared supervision.
+4. Examine the resulting evidence and decide what comes next.
 
-1. Connect an objective to a mission, its scope and the repository’s rules.
-2. Give the agent useful context when work happens: contracts, dependencies, references and observed state.
-3. Follow changes and agent activity through the supervision components shared by Studio and its viewers.
-4. Inspect verification results, resolve contradictions and make the integration decision.
+## Separate responsibilities
 
-## Design choices
+**The engine owns authority.** Studio, the editor extension and readers present project contracts; they do not recreate a competing version of Project/Gate’s truth.
 
-### A mission connected to code
+**Context remains an observation.** Its origin and freshness matter to the mission. It does not replace permissions or validation.
 
-Objectives, scope and dependencies share one context. The index connects symbols, calls and references to the requested work.
+**The commercial account does not own the repository.** Accounts, licenses, teams and PostgreSQL billing remain separate from code permissions. The gateway exposes only authorized private reads.
 
-### Useful context at the right time
+Demonstration mode is explicitly selected when the engine is unavailable. Demo screens contain fictional data and are not a measured result on a real project.
 
-A capsule combines obligations and relevant sources. Provenance and freshness remain inspectable throughout the mission.
+**Status: in development.** Native engine, human supervision and editor extension; productivity and token savings require measurement across a complete mission.
 
-### Supervision supports decisions
-
-Studio shows progress, changes and items needing attention. Questions, results and review material belong to the same workflow.
-
-**Stage :** In development · native engine and human supervision.
-
-[Studio & services ↗](https://floriansola.fr/en/projects/aindex)
+[Project presentation ↗](https://floriansola.fr/en/projects/aindex)

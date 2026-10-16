@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="500" viewBox="0 0 1000 500" role="img" aria-labelledby="title desc">
+<title id="title">HectorLayak — Languages. Agents. Products. Worlds.</title><desc id="desc">Original vector composition: editorial typography and an open geometric graph.</desc>
+<rect width="1000" height="500" fill="#f3f0e6"/>
+<path d="M0 0V500" stroke="#234fec" stroke-width="16"/>
+<g font-family="Arial, Helvetica, sans-serif" fill="#152b39">
+<text x="42" y="42" font-size="25" font-weight="700" letter-spacing="2">HECTORLAYAK</text>
+<text x="958" y="39" text-anchor="end" font-size="13" letter-spacing="3" fill="#52636b">SOFTWARE / SYSTEMS</text>
+<path d="M42 65H958M42 384H958" stroke="#c7cec6"/>
+<text x="38" y="157" font-size="76" font-weight="800" letter-spacing="-3">FROM CODE</text>
+<text x="38" y="244" font-size="76" font-weight="800" letter-spacing="-3">TO LIVING</text>
+<text x="38" y="331" font-size="76" font-weight="800" letter-spacing="-3" fill="#234fec">SYSTEMS.</text>
+<text x="42" y="430" font-size="28">Languages. Agents. Products. Worlds.</text>
+<text x="42" y="470" font-size="14" letter-spacing="2" fill="#52636b">UNDERSTAND · BUILD · KEEP IT RUNNING</text>
+</g>
+<g fill="none" stroke="#c7cec6" stroke-width="2">
+<path d="M718 116H928V326H718ZM718 116L928 326M928 116L718 326M823 116V326M718 221H928"/>
+<circle cx="823" cy="221" r="73"/><circle cx="823" cy="221" r="105"/>
+</g>
+<g fill="#f3f0e6" stroke="#234fec" stroke-width="2">
+<rect x="701" y="99" width="34" height="34"/><rect x="911" y="309" width="34" height="34"/>
+<circle cx="823" cy="221" r="25"/><circle cx="928" cy="116" r="8"/><circle cx="718" cy="326" r="8"/>
+</g>
+<path d="M812 221H834M823 210V232" stroke="#234fec" stroke-width="2"/>
+<path d="M745 470H958" stroke="#c7cec6"/>
+<circle cx="958" cy="470" r="4" fill="#234fec"/>
+
+</svg>

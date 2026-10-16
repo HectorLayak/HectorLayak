@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="290" viewBox="0 0 1000 290" role="img" aria-labelledby="title desc">
+<title id="title">HECTOR / NEXT</title><desc id="desc">BESOIN — Graphe métier; PROPOSITION — Base versionnée; EXAMEN — Vérifier · réfuter. Proposer et admettre restent deux actes distincts.</desc>
+<rect width="1000" height="290" fill="#121a20"/>
+<g font-family="Arial, Helvetica, sans-serif">
+<text x="42" y="53" font-size="32" font-weight="700" fill="#f4f1e8" letter-spacing="1">HECTOR / NEXT</text>
+<text x="958" y="50" text-anchor="end" font-size="13" letter-spacing="2" fill="#d9fa6c">RECHERCHE ACTIVE</text>
+<rect x="42" y="97" width="276" height="108" fill="#19262d" stroke="#39505a"/><text x="59" y="141" font-size="29" font-weight="700" fill="#d9fa6c">BESOIN</text><text x="59" y="180" font-size="22" fill="#c3d0d2">Graphe métier</text><path d="M318 151H356L346 141M356 151L346 161" fill="none" stroke="#d9fa6c" stroke-width="2"/><rect x="362" y="97" width="276" height="108" fill="#19262d" stroke="#39505a"/><text x="379" y="141" font-size="29" font-weight="700" fill="#d9fa6c">PROPOSITION</text><text x="379" y="180" font-size="22" fill="#c3d0d2">Base versionnée</text><path d="M638 151H676L666 141M676 151L666 161" fill="none" stroke="#d9fa6c" stroke-width="2"/><rect x="682" y="97" width="276" height="108" fill="#19262d" stroke="#39505a"/><text x="699" y="141" font-size="29" font-weight="700" fill="#d9fa6c">EXAMEN</text><text x="699" y="180" font-size="22" fill="#c3d0d2">Vérifier · réfuter</text>
+<text x="42" y="256" font-size="25" fill="#f4f1e8">Proposer et admettre restent deux actes distincts.</text>
+</g>
+</svg>

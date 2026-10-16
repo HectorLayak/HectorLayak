@@ -1,14 +1,12 @@
 name: Temporary Strata Fleet public inputs
+# Historical input bundle: manual owner request only. Profile edits must not run it.
 on:
-  push:
-    branches: [main]
-    paths-ignore:
-      - .github/workflows/strata-fleet-public-build.yml
   workflow_dispatch:
 permissions:
   contents: read
 jobs:
   build:
+    if: github.event_name == 'workflow_dispatch' && github.actor == github.repository_owner && github.triggering_actor == github.repository_owner
     runs-on: vps-linux
     timeout-minutes: 30
     env:

@@ -1,38 +1,32 @@
 # AINDEX
 
-**Confier le travail aux agents. Garder la maîtrise du projet.**
+**Les agents opèrent. Les humains supervisent le projet.**
 
 [Tous les projets](../README.md#tout-latelier) · [English](aindex.en.md)
 
-![AINDEX — supervision en démonstration](../assets/captures/aindex-supervision.jpg)
+![AINDEX : mission, moteur d’autorité du projet et supervision humaine](../assets/atelier/aindex-fr.svg)
 
-AINDEX organise le développement avec des agents autour d’un même projet. Un objectif devient des missions reliées à un périmètre, aux dépendances du code et aux décisions à prendre. L’équipe peut suivre le travail, examiner les changements et intervenir là où son jugement compte.
+Confier du développement à des agents demande de relier chaque changement à une demande, à des fichiers autorisés et à des vérifications. AINDEX rassemble ces éléments : objectifs, missions, contexte du code, exécution et résultats examinables.
 
-Le moteur Rust indexe les symboles et leurs relations. Il compose un contexte ciblé à partir de la mission, de l’état du dépôt et des références utiles. La capsule accompagne le travail de l’agent ; le Studio et l’extension permettent à l’humain de comprendre sa provenance et ce qui a changé.
+Le moteur Rust indexe les symboles et leurs relations. Il possède aussi l’autorité du projet : tâches, permissions, réservations de travail et validations. La couche de contexte fournit le contrat de mission et les références utiles, puis relit l’état du projet à la reprise. Lire le contexte ne donne pas l’autorisation de modifier le code.
 
-La supervision rassemble avancement, activité, contexte, questions et vérifications. L’atelier d’intégration prépare un espace indépendant pour examiner un changement. Le compte commercial, les licences et les accès d’équipe complètent le produit avec une frontière distincte de l’autorité sur le code.
+## Une mission reliée au projet
 
-## Parcours
+1. Rattacher la demande à un objectif, à un périmètre et aux règles du dépôt.
+2. Fournir les contrats, dépendances, références et observations utiles au travail.
+3. Suivre l’activité, les changements et les vérifications dans la supervision commune.
+4. Examiner les éléments produits et décider de la suite.
 
-1. Relier un objectif à une mission, à son périmètre et aux règles du dépôt.
-2. Fournir à l’agent le contexte utile au moment du travail : contrats, dépendances, références et état observé.
-3. Suivre les changements et l’activité dans une supervision humaine commune au Studio et à ses lecteurs.
-4. Examiner les vérifications, résoudre les contradictions et prendre la décision d’intégration.
+## Des responsabilités séparées
 
-## Décisions de conception
+**Le moteur porte l’autorité.** Studio, extension et lecteurs présentent les contrats du projet ; ils ne recréent pas une vérité concurrente de Project/Gate.
 
-### Une mission reliée au code
+**Le contexte reste une observation.** Son origine et sa fraîcheur comptent pour la mission. Il ne remplace ni les permissions ni les validations.
 
-Objectif, périmètre et dépendances partagent le même contexte. L’index relie symboles, appels et références utiles au travail demandé.
+**Le compte commercial ne possède pas le dépôt.** Les comptes, licences, équipes et la facturation PostgreSQL restent distincts des permissions sur le code. La passerelle expose seulement les lectures privées autorisées.
 
-### Le bon contexte au bon moment
+Le mode démonstration est choisi explicitement lorsque le moteur est indisponible. Les écrans de démonstration portent des données fictives et ne constituent pas un résultat mesuré sur un projet réel.
 
-Une capsule rassemble les obligations et les sources pertinentes. Sa provenance et sa fraîcheur restent consultables pendant la mission.
+**État : en développement.** Moteur natif, supervision humaine et extension d’éditeur ; les gains de productivité et de tokens demandent une mesure sur une mission complète.
 
-### La supervision au service de la décision
-
-Le Studio montre ce qui avance, ce qui change et ce qui mérite attention. L’équipe retrouve questions, résultats et éléments de revue dans le même parcours.
-
-**État :** En développement · moteur natif et supervision humaine.
-
-[Studio & services ↗](https://floriansola.fr/projects/aindex)
+[Présentation du projet ↗](https://floriansola.fr/projects/aindex)

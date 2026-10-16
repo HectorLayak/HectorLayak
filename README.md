@@ -1,141 +1,59 @@
-![HectorLayak — Comprendre. Construire. Faire vivre.](assets/showcase/hero-fr.svg)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/atelier/identity-fr-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/atelier/identity-fr-light.svg">
+  <img src="assets/atelier/identity-fr-light.svg" alt="HectorLayak — Du code aux systèmes vivants. Langages, agents, produits et mondes." width="1000">
+</picture>
 
-<p align="center"><a href="#projets-choisis">Six projets</a> · <a href="#la-carte-de-latelier">La carte</a> · <a href="#tout-latelier">33 projets</a> · <a href="https://floriansola.fr">Studio &amp; services ↗</a> · <a href="README.en.md">English</a></p>
+<p align="center"><a href="#01--outiller-le-développement">Langages &amp; agents</a> · <a href="#02--relier-les-usages">Produits</a> · <a href="#03--faire-vivre-des-mondes">Mondes</a> · <a href="#tout-latelier">Les 33 projets</a> · <a href="README.en.md">English</a></p>
 
-Je construis des outils d’IA appliquée, des plateformes .NET et des systèmes temps réel. Mes projets explorent l’orchestration d’agents, les contrats exécutables, les moteurs réseau et la simulation, avec un fil rouge : maîtriser l’état, les performances et les frontières entre composants.
+Je conçois des outils pour développer avec des agents, des plateformes métier et des mondes multijoueurs. Ce qui les relie : **des règles compréhensibles, un état partagé et des composants capables de se retrouver après une interruption.**
 
-**C# / .NET · Rust · Python · TypeScript · C / C++**
+C# / .NET · Rust · TypeScript · C / C++ · Python
 
-## Projets choisis
+Ce profil ouvre tout l’atelier : produits, recherche, prototypes et collaborations. [Le studio](https://floriansola.fr) présente une sélection de réalisations pour les projets clients.
 
-[![AINDEX — Confier le travail aux agents. Garder la maîtrise du projet.](assets/captures/aindex-supervision.jpg)](projects/aindex.md)
+## 01 / Outiller le développement
 
-**Confier le travail aux agents. Garder la maîtrise du projet.**
+[![HECTOR NEXT : besoin métier, proposition sur une base versionnée, examen des conséquences. Proposition et admission sont distinctes.](assets/atelier/hector-fr.svg)](projects/hector.md)
 
-AINDEX organise le développement avec des agents autour d’un même projet. Un objectif devient des missions reliées à un périmètre, aux dépendances du code et aux décisions à prendre. L’équipe peut suivre le travail, examiner les changements et intervenir là où son jugement compte.
+**HECTOR — L’agent programme le problème. Hector explore sa réalisation.**
 
-*Supervision réelle · projet fictif en mode démonstration.*
+Un programme devient un graphe typé et versionné de faits métier. L’agent propose un changement contre une base précise ; le propriétaire garde l’admission. Dérivation, recherche de contre-exemples et compilation native cherchent à réduire les décisions techniques laissées à l’agent. **Recherche active.**
 
-<details>
-<summary>Architecture et idées</summary>
+[Le langage et ses frontières →](projects/hector.md)
 
-**Une mission reliée au code.** Objectif, périmètre et dépendances partagent le même contexte. L’index relie symboles, appels et références utiles au travail demandé.
+[![AINDEX : une mission reliée au code, un moteur propriétaire de l’autorité du projet et une supervision humaine.](assets/atelier/aindex-fr.svg)](projects/aindex.md)
 
-**Le bon contexte au bon moment.** Une capsule rassemble les obligations et les sources pertinentes. Sa provenance et sa fraîcheur restent consultables pendant la mission.
+**AINDEX — Les agents opèrent. Les humains supervisent.**
 
-**La supervision au service de la décision.** Le Studio montre ce qui avance, ce qui change et ce qui mérite attention. L’équipe retrouve questions, résultats et éléments de revue dans le même parcours.
+Le moteur Rust relie objectifs, missions, symboles et dépendances du code. Il organise le travail et ses vérifications. Studio et extension donnent à l’équipe une vue commune du contexte, de l’activité et des changements à examiner. **En développement.**
 
-</details>
+[Le produit et son architecture →](projects/aindex.md)
 
-[Explorer le projet ↗](projects/aindex.md)
+## 02 / Relier les usages
 
-[![HECTOR — Décrire le besoin. Construire la mécanique.](assets/showcase/hector-fr.svg)](projects/hector.md)
+Des applications où une action traverse plusieurs responsabilités, du geste de l’utilisateur à la donnée persistante.
 
-**Décrire le besoin. Construire la mécanique.**
+| Produit | Ce qu’il relie |
+| :--- | :--- |
+| **[OneRP](projects/onerp-framework.md)** | Un backend SaaS, une administration et des modules FiveM : personnages, économie, inventaires et véhicules. |
+| **[StaffingOS](projects/staffingos.md)** | Missions, temps, frais et validations jusqu’à la préparation de la paie et de la facturation. |
+| **[RoadTripper](projects/roadtripper.md)** | Un programme de voyage, la carte, le groupe, les dépenses et les propositions d’un copilote. |
+| **[SaleCast](projects/salecast.md)** | Les canaux de vente, les commandes et la préparation du réapprovisionnement. |
+| **[Matchr](projects/matchr.md)** | Une offre, un CV ciblé et le suivi du dossier de candidature. |
 
-HECTOR part d’une idée : l’auteur doit pouvoir exprimer le comportement attendu, ses contraintes et les transformations autorisées. Types, unités, effets et contrats donnent une forme explicite à cette intention. Le langage vise aussi les agents : leurs propositions deviennent examinables par le compilateur.
+## 03 / Faire vivre des mondes
 
-<details>
-<summary>Architecture et idées</summary>
+Le jeu est aussi un terrain d’architecture : autorité serveur, réseau, persistance, simulation et interfaces du joueur doivent raconter le même état.
 
-**Le comportement avant la mécanique.** Déclarer les valeurs, les résultats et les obligations. L’auteur précise aussi les libertés : représentation, fusion ou ordre indépendant.
+| Monde | Le chantier |
+| :--- | :--- |
+| **[FantasyOnline](projects/fantasy-online.md)** | Monde fantasy persistant, génération causale du terrain, règles de jeu .NET et client Unity. |
+| **[Poisson Engine](projects/poisson-engine.md)** | Bancs, prédation et mutations ; calcul WebGPU/CPU séparé du rendu WebGL/Canvas2D. |
+| **[Survival Unreal](projects/survival-unreal.md)** | Contrats, services en ligne et réseau de zones propres au projet, reliés au HUD et aux systèmes Unreal. |
+| **[Nexus / Reclaim City](projects/nexus.md)** | Récupérer des épaves et faire évoluer son district ; gameplay Luau et outils d’exploitation .NET. |
 
-**Un langage pour humains et agents.** Les types, effets et contrats rendent les propositions analysables. L’agent propose un changement ; le compilateur expose les contradictions qu’il sait détecter.
-
-**Un noyau réutilisable.** Les mêmes sources produisent des bibliothèques natives et WebAssembly. Les interfaces et les identités de compilation accompagnent leur intégration dans les applications.
-
-</details>
-
-[Explorer le projet ↗](projects/hector.md)
-
-[![OneRP — Un socle SaaS pour exploiter des mondes roleplay FiveM.](assets/showcase/onerp-framework-fr.svg)](projects/onerp-framework.md)
-
-OneRP associe un backend SaaS, une administration et des modules FiveM. Personnages, économie, inventaires, véhicules, logements et activités partagent des services métier réactifs et des interfaces React en jeu.
-
-<details>
-<summary>Architecture et parcours</summary>
-
-**Un état métier réactif.** Fusion relie les lectures à leurs dépendances. Les mutations invalident les données concernées ; les sentinelles propres au joueur limitent les recalculs au périmètre utile.
-
-**Des opérations économiques transactionnelles.** Les modèles de mutation ouvrent des contextes d'opération et prévoient une isolation sérialisable pour les écritures concurrentes. Les filtres d'instance et contrôles de lecture accompagnent les services métier.
-
-1. Créer et configurer une instance de serveur depuis l'administration.
-2. Accueillir le joueur, choisir son personnage et suivre son arrivée dans le monde.
-3. Interagir avec les métiers, inventaires, banques, véhicules et logements.
-4. Faire valider les actions par les services métier du serveur.
-5. Suivre les états et administrer les instances depuis les interfaces connectées.
-
-</details>
-
-[Explorer le projet ↗](projects/onerp-framework.md)
-
-[![StaffingOS — Relier missions, temps, frais et préparation des sorties financières.](assets/showcase/staffingos-fr.svg)](projects/staffingos.md)
-
-StaffingOS relie les missions chez les clients, les temps, les frais et les absences aux étapes de validation et de préparation financière. Les espaces salarié et gestionnaire partagent les dossiers et leurs règles d'accès.
-
-<details>
-<summary>Architecture et parcours</summary>
-
-**Un dossier, plusieurs responsabilités.** Le salarié, le responsable, les RH et la comptabilité interviennent sur les mêmes dossiers avec des droits et des périmètres explicites. Les règles de mission, de temps et d'absence sont partagées entre interfaces.
-
-**Des écritures traçables.** La création d'une mission associe empreinte de commande, versions, audit et événements durables dans une transaction. Les reprises distinguent une nouvelle action du rejeu d'une action déjà enregistrée.
-
-1. Enregistrer le client, son site, le besoin et la personne affectée.
-2. Créer la mission avec ses dates et ses versions tarifaires.
-3. Saisir les temps, frais et demandes d'absence depuis les espaces autorisés.
-4. Examiner les demandes et exceptions dans les circuits de validation.
-5. Préparer les lots de prépaie et préfacturation, puis enregistrer les preuves de règlement.
-
-</details>
-
-[Explorer le projet ↗](projects/staffingos.md)
-
-[![RoadTripper — Un programme commun, une carte et un copilote pour voyager à plusieurs.](assets/showcase/roadtripper-fr.svg)](projects/roadtripper.md)
-
-Un carnet de voyage partagé pour construire ses journées, explorer les lieux sur une carte, organiser le groupe et suivre ses dépenses. Le copilote propose des changements que les voyageurs peuvent relire avant de les adopter.
-
-<details>
-<summary>Architecture et parcours</summary>
-
-**Le jour reste le point d'ancrage.** L'accueil, le programme et la carte partagent la journée et les identifiants d'étapes. Sur mobile, la prochaine action précède les outils secondaires ; une fiche se consulte avant d'être modifiée.
-
-**Un calcul commun au client et au serveur.** Le domaine du carnet reste indépendant de l'interface. Hector, compilé en WebAssembly, porte les calculs déterministes de planning, budget et progression ; la passerelle valide à nouveau les données reçues.
-
-1. Composer le voyage — Créer un carnet avec les dates et les préférences, répartir les étapes par journée, puis ajouter les lieux, pauses et nuitées.
-2. Passer du programme à la carte — Choisir une journée, ouvrir une étape en lecture et la retrouver sur la carte sans perdre sa sélection. Calculer ou actualiser le trajet quand un fournisseur est configuré.
-3. Préparer le départ ensemble — Inviter les membres avec un rôle, affecter les voyageurs aux voitures, vérifier la préparation et rassembler réservations, documents et budget.
-4. Faire évoluer le parcours — Proposer un lieu au groupe ou demander au copilote un détour. Relire les changements sur le carnet courant avant leur adoption ; partager sa position seulement après accord.
-5. Garder les comptes lisibles — Enregistrer les dépenses, leurs parts et les remboursements déclarés ; distinguer les montants engagés, estimés et réellement saisis.
-
-</details>
-
-[Explorer le projet ↗](projects/roadtripper.md)
-
-[![Poisson Engine — Un écosystème vivant simulé dans le navigateur.](assets/showcase/poisson-engine-fr.svg)](projects/poisson-engine.md)
-
-Poisson simule bancs, prédation, métabolisme et mutations dans le navigateur. Le moteur sépare le calcul WebGPU/CPU du rendu WebGL/Canvas2D et sert des modes d’observation, de sandbox et de jeu.
-
-<details>
-<summary>Architecture et parcours</summary>
-
-**Calcul et rendu évoluent séparément.** WebGPU accélère le calcul de simulation, avec un chemin CPU quand il est indisponible. Le rendu choisit WebGL ou Canvas2D. Cette séparation permet d’adapter le travail et la présentation aux capacités du navigateur.
-
-**Organiser les données pour le parallélisme.** Tableaux typés, structures SoA, grille spatiale, prefix-sum et réordonnancement rapprochent les agents voisins en mémoire. Le pipeline GPU traite les forces de banc et de chasse avant l’intégration physique.
-
-1. Choisir un mode et observer les bancs, prédateurs et ressources de l’écosystème.
-2. Modifier les paramètres et suivre les effets sur les déplacements, l’énergie et la reproduction.
-3. Explorer génétique, mutations et rapports entre espèces.
-4. Jouer avec progression, capacités, missions et économie, ou inspecter la simulation.
-
-</details>
-
-[Explorer le projet ↗](projects/poisson-engine.md)
-
-## La carte de l’atelier
-
-![Code, produits, mondes et opérations ; Hector fournit le moteur WASM de RoadTripper.](assets/showcase/ecosystem-fr.svg)
-
-**Un lien concret entre les terrains :** RoadTripper utilise Hector en WebAssembly pour ses calculs de planning, de budget et de progression.
+L’exploitation fait partie du travail : [VPS Command Center](projects/vps-command-center.md) et [l’infrastructure auto-hébergée](projects/self-hosted-infrastructure.md) relient services, versions, livraison et reprise.
 
 ## Tout l’atelier
 
@@ -147,7 +65,7 @@ Poisson simule bancs, prédation, métabolisme et mutations dans le navigateur. 
 | Projet | Domaine |
 | :--- | :--- |
 | [AINDEX](projects/aindex.md) | Les agents opèrent. Les humains supervisent le projet. |
-| [HECTOR](projects/hector.md) | Un langage pour exprimer les comportements, compiler et examiner les contrats. |
+| [HECTOR](projects/hector.md) | Un graphe métier versionné : proposer, vérifier et admettre séparément. |
 | [Continuum](projects/continuum.md) | Apprendre à naviguer, puis mesurer les décisions dans un laboratoire reproductible. |
 | [PromptVault](projects/promptvault.md) | Transformer les prompts d’une équipe en outils réutilisables |
 | [Matchr](projects/matchr.md) | Une offre, un CV ciblé, un dossier de candidature suivi. |
@@ -181,7 +99,7 @@ Poisson simule bancs, prédation, métabolisme et mutations dans le navigateur. 
 | [FantasyOnline.Shared](projects/fantasy-online-shared.md) | Partager les contrats et les règles, avec une adoption explicite par jeu. |
 | [Nexus / Reclaim City](projects/nexus.md) | Récupérer des épaves et reconstruire un district à son image. |
 | [SurvivalKingdom](projects/survival-kingdom.md) | Relier la survie, un monde multijoueur et les services qui le font durer. |
-| [SurvivalUnreal](projects/survival-unreal.md) | Un monde de survie relié à ses propres services de jeu. |
+| [Survival Unreal](projects/survival-unreal.md) | Un monde de survie relié à ses propres services de jeu. |
 | [REWORLD](projects/reworld.md) | Composer un atlas, relier ses territoires et écrire leur histoire. |
 | [MANDATE EARTH](projects/mandate-earth.md) | Préparer un plan, engager des ressources et en suivre les conséquences. |
 | [Symbiont](projects/symbiont.md) | Faire grandir une colonie sans épuiser le monde qui la nourrit. |

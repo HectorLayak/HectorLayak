@@ -1,141 +1,59 @@
-![HectorLayak — Understand. Build. Bring to life.](assets/showcase/hero-en.svg)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/atelier/identity-en-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/atelier/identity-en-light.svg">
+  <img src="assets/atelier/identity-en-light.svg" alt="HectorLayak — From code to living systems. Languages, agents, products and worlds." width="1000">
+</picture>
 
-<p align="center"><a href="#selected-projects">Six projects</a> · <a href="#the-workshop-map">The map</a> · <a href="#the-whole-workshop">33 projects</a> · <a href="https://floriansola.fr/en">Studio &amp; services ↗</a> · <a href="README.md">Français</a></p>
+<p align="center"><a href="#01--tools-for-development">Languages &amp; agents</a> · <a href="#02--connecting-use-cases">Products</a> · <a href="#03--bringing-worlds-to-life">Worlds</a> · <a href="#the-whole-workshop">All 33 projects</a> · <a href="README.md">Français</a></p>
 
-I build applied AI tools, .NET platforms and real-time systems. My projects explore agent orchestration, executable contracts, networking engines and simulation, with one recurring concern: keeping state, performance and component boundaries explicit.
+I build tools for developing with agents, business platforms and multiplayer worlds. Their common ground: **understandable rules, shared state, and components that can recover after an interruption.**
 
-**C# / .NET · Rust · Python · TypeScript · C / C++**
+C# / .NET · Rust · TypeScript · C / C++ · Python
 
-## Selected projects
+This profile opens the whole workshop: products, research, prototypes and collaborations. [The studio](https://floriansola.fr/en) presents selected work for client projects.
 
-[![AINDEX — Let agents do the work. Keep control of the project.](assets/captures/aindex-supervision.jpg)](projects/aindex.en.md)
+## 01 / Tools for development
 
-**Let agents do the work. Keep control of the project.**
+[![HECTOR NEXT: domain intent, a proposal against a versioned base, and examination of its consequences. Proposing and admitting are separate acts.](assets/atelier/hector-en.svg)](projects/hector.en.md)
 
-AINDEX organises agent-assisted development around one project. An objective becomes missions linked to scope, code dependencies and decisions. Teams follow the work, inspect changes and intervene where their judgment matters.
+**HECTOR — The agent programs the problem. Hector explores its realization.**
 
-*Real supervision interface · fictional demonstration project.*
+A program becomes a typed, versioned graph of domain facts. The agent proposes a change against a precise base; the owner retains admission. Derivation, counterexample search and native compilation explore how to reduce the technical decisions left to agents. **Active research.**
 
-<details>
-<summary>Architecture and ideas</summary>
+[The language and its boundaries →](projects/hector.en.md)
 
-**A mission connected to code.** Objectives, scope and dependencies share one context. The index connects symbols, calls and references to the requested work.
+[![AINDEX: a mission connected to code, an engine owning project authority, and human supervision.](assets/atelier/aindex-en.svg)](projects/aindex.en.md)
 
-**Useful context at the right time.** A capsule combines obligations and relevant sources. Provenance and freshness remain inspectable throughout the mission.
+**AINDEX — Agents do the work. Humans oversee it.**
 
-**Supervision supports decisions.** Studio shows progress, changes and items needing attention. Questions, results and review material belong to the same workflow.
+The Rust engine connects goals, missions, symbols and code dependencies. It organizes work and verification. Studio and the editor extension give the team a shared view of context, activity and changes to review. **In development.**
 
-</details>
+[The product and its architecture →](projects/aindex.en.md)
 
-[Explore the project ↗](projects/aindex.en.md)
+## 02 / Connecting use cases
 
-[![HECTOR — Describe the need. Build the mechanics.](assets/showcase/hector-en.svg)](projects/hector.en.md)
+Applications where one action crosses several responsibilities, from a user’s gesture to persistent data.
 
-**Describe the need. Build the mechanics.**
+| Product | What it connects |
+| :--- | :--- |
+| **[OneRP](projects/onerp-framework.en.md)** | A SaaS backend, administration and FiveM modules: characters, economy, inventories and vehicles. |
+| **[StaffingOS](projects/staffingos.en.md)** | Assignments, time, expenses and approvals through payroll and invoicing preparation. |
+| **[RoadTripper](projects/roadtripper.en.md)** | A travel itinerary, map, group, expenses and a copilot’s proposals. |
+| **[SaleCast](projects/salecast.en.md)** | Sales channels, orders and replenishment planning. |
+| **[Matchr](projects/matchr.en.md)** | A job offer, targeted CV and application tracking. |
 
-HECTOR starts with an idea: authors should express expected behavior, constraints and permitted transformations. Types, units, effects and contracts make that intent explicit. The language also targets agents, whose proposals become inspectable by the compiler.
+## 03 / Bringing worlds to life
 
-<details>
-<summary>Architecture and ideas</summary>
+Games are an architectural playground: server authority, networking, persistence, simulation and the player interface need to describe the same state.
 
-**Behavior before mechanics.** Declare values, results and obligations, along with permitted changes to representation, fusion or independent ordering.
+| World | The work |
+| :--- | :--- |
+| **[FantasyOnline](projects/fantasy-online.en.md)** | A persistent fantasy world, causal terrain generation, .NET game rules and a Unity client. |
+| **[Poisson Engine](projects/poisson-engine.en.md)** | Shoals, predation and mutations; WebGPU/CPU computation separated from WebGL/Canvas2D rendering. |
+| **[Survival Unreal](projects/survival-unreal.en.md)** | The project’s own contracts, online services and zone networking, connected to its HUD and Unreal systems. |
+| **[Nexus / Reclaim City](projects/nexus.en.md)** | Recover wrecks and develop a district; Luau gameplay and .NET operations tools. |
 
-**For humans and agents.** Types, effects and contracts make proposals inspectable. An agent proposes a change; the compiler reports the contradictions it can detect.
-
-**Reusable kernels.** The same sources produce native and WebAssembly libraries. Interfaces and compiler identities accompany their integration into applications.
-
-</details>
-
-[Explore the project ↗](projects/hector.en.md)
-
-[![OneRP — A SaaS foundation for operating FiveM roleplay worlds.](assets/showcase/onerp-framework-en.svg)](projects/onerp-framework.en.md)
-
-OneRP brings a SaaS backend, administration and FiveM modules together. Characters, economy, inventory, vehicles, housing and activities share reactive business services and in-game React interfaces.
-
-<details>
-<summary>Architecture and journey</summary>
-
-**Reactive business state.** Fusion tracks read dependencies. Mutations invalidate the relevant data, while player-scoped sentinels keep recomputation focused on the useful scope.
-
-**Transactional economic operations.** Mutation templates open operation contexts and provide serializable isolation for concurrent writes. Instance filters and read guards support business services.
-
-1. Create and configure a server instance in the administration panel.
-2. Welcome players, select a character and guide their arrival.
-3. Interact with jobs, inventory, banking, vehicles and housing.
-4. Validate actions through server business services.
-5. Follow state changes and manage instances through connected interfaces.
-
-</details>
-
-[Explore the project ↗](projects/onerp-framework.en.md)
-
-[![StaffingOS — Connect assignments, time, expenses and financial preparation.](assets/showcase/staffingos-en.svg)](projects/staffingos.en.md)
-
-StaffingOS connects client assignments, time, expenses and absences to approvals and financial preparation. Worker and management workspaces share records and access rules.
-
-<details>
-<summary>Architecture and journey</summary>
-
-**Shared records, distinct responsibilities.** Workers, managers, HR and accounting act on shared records with explicit permissions and scopes. Assignment, time and absence rules are shared across interfaces.
-
-**Traceable operations.** Assignment creation records a command fingerprint, versions, audit and durable events in one transaction. Recovery distinguishes new work from replay of an existing operation.
-
-1. Record the client, site, requirement and assigned person.
-2. Create the assignment with dates and versioned rates.
-3. Submit time, expenses and absence requests through authorised workspaces.
-4. Review requests and exceptions through approval workflows.
-5. Prepare payroll and preinvoice batches, then record payment evidence.
-
-</details>
-
-[Explore the project ↗](projects/staffingos.en.md)
-
-[![RoadTripper — A shared itinerary, a map and a copilot for travelling together.](assets/showcase/roadtripper-en.svg)](projects/roadtripper.en.md)
-
-A shared travel notebook for planning each day, exploring places on a map, organising the group and tracking expenses. The copilot proposes changes for travellers to review before adopting them.
-
-<details>
-<summary>Architecture and journey</summary>
-
-**Keep the day as the anchor.** The overview, itinerary and map share the selected day and stop identifiers. On mobile, the next action comes before secondary tools, and a stop opens for reading before editing.
-
-**Share calculations across client and server.** The notebook domain is independent of the interface. Hector, compiled to WebAssembly, provides deterministic planning, budget and progress calculations; the gateway validates incoming data again.
-
-1. Build the trip — Create a notebook with dates and preferences, organise stops by day, and add places, breaks and overnight stays.
-2. Move between itinerary and map — Select a day, inspect a stop and find it on the map without losing the selection. Calculate or refresh a route when a provider is configured.
-3. Prepare together — Invite members with a role, assign travellers to cars, review departure preparation and collect reservations, documents and the budget.
-4. Adapt the itinerary — Suggest a place to the group or ask the copilot for a detour. Review changes against the current notebook before adopting them, and share location only with consent.
-5. Keep expenses clear — Record expenses, their shares and declared reimbursements, while keeping committed, estimated and recorded amounts distinct.
-
-</details>
-
-[Explore the project ↗](projects/roadtripper.en.md)
-
-[![Poisson Engine — A living ecosystem simulated in the browser.](assets/showcase/poisson-engine-en.svg)](projects/poisson-engine.en.md)
-
-Poisson simulates schooling, predation, metabolism and mutations in the browser. The engine separates WebGPU/CPU compute from WebGL/Canvas2D rendering and supports observation, sandbox and gameplay modes.
-
-<details>
-<summary>Architecture and journey</summary>
-
-**Compute and rendering adapt independently.** WebGPU accelerates simulation compute, with a CPU path when unavailable. Rendering chooses WebGL or Canvas2D. This separation adapts both workload and presentation to browser capabilities.
-
-**Organize data for parallel execution.** Typed arrays, SoA data, spatial grids, prefix sums and reordering bring neighboring agents closer in memory. The GPU pipeline handles schooling and hunting forces before physics integration.
-
-1. Choose a mode and observe schools, predators and ecosystem resources.
-2. Adjust parameters and follow their effects on movement, energy and reproduction.
-3. Explore genetics, mutations and relationships between species.
-4. Play with progression, abilities, missions and the economy, or inspect the simulation.
-
-</details>
-
-[Explore the project ↗](projects/poisson-engine.en.md)
-
-## The workshop map
-
-![Code, products, worlds and operations; Hector provides RoadTripper’s WASM engine.](assets/showcase/ecosystem-en.svg)
-
-**A concrete connection between areas:** RoadTripper uses Hector through WebAssembly for planning, budget and progress calculations.
+Operations belong to the work: [VPS Command Center](projects/vps-command-center.en.md) and [self-hosted infrastructure](projects/self-hosted-infrastructure.en.md) connect services, versions, delivery and recovery.
 
 ## The whole workshop
 
@@ -147,7 +65,7 @@ Poisson simulates schooling, predation, metabolism and mutations in the browser.
 | Project | Domain |
 | :--- | :--- |
 | [AINDEX](projects/aindex.en.md) | Agents do the work. Humans oversee the project. |
-| [HECTOR](projects/hector.en.md) | A language for expressing behavior, compiling it and inspecting contracts. |
+| [HECTOR](projects/hector.en.md) | A versioned domain graph: propose, verify and admit separately. |
 | [Continuum](projects/continuum.en.md) | Learn to navigate, then measure decisions in a reproducible laboratory. |
 | [PromptVault](projects/promptvault.en.md) | Turn a team’s prompts into reusable tools |
 | [Matchr](projects/matchr.en.md) | One offer, a targeted CV and a tracked application dossier. |
@@ -181,7 +99,7 @@ Poisson simulates schooling, predation, metabolism and mutations in the browser.
 | [FantasyOnline.Shared](projects/fantasy-online-shared.en.md) | Share contracts and rules through explicit adoption by each game. |
 | [Nexus / Reclaim City](projects/nexus.en.md) | Recover wrecks and rebuild a district of your own. |
 | [SurvivalKingdom](projects/survival-kingdom.en.md) | Connect survival, a multiplayer world and the services that sustain it. |
-| [SurvivalUnreal](projects/survival-unreal.en.md) | A survival world connected to its own game services. |
+| [Survival Unreal](projects/survival-unreal.en.md) | A survival world connected to its own game services. |
 | [REWORLD](projects/reworld.en.md) | Build an atlas, connect its territories and write their story. |
 | [MANDATE EARTH](projects/mandate-earth.en.md) | Prepare a plan, commit resources and track the consequences. |
 | [Symbiont](projects/symbiont.en.md) | Grow a colony without exhausting the world that feeds it. |

@@ -1,36 +1,33 @@
 # HECTOR
 
-**Décrire le besoin. Construire la mécanique.**
+**L’agent programme le problème. Hector explore sa réalisation.**
 
 [Tous les projets](../README.md#tout-latelier) · [English](hector.en.md)
 
-HECTOR part d’une idée : l’auteur doit pouvoir exprimer le comportement attendu, ses contraintes et les transformations autorisées. Types, unités, effets et contrats donnent une forme explicite à cette intention. Le langage vise aussi les agents : leurs propositions deviennent examinables par le compilateur.
+![HECTOR NEXT : besoin, proposition et examen ; admission distincte](../assets/atelier/hector-fr.svg)
 
-Le projet réunit un langage, un compilateur natif écrit en Hector et des bibliothèques consommables en natif ou en WebAssembly. Collections, registres et calculs constituent des applications concrètes. Une même règle de recherche peut, par exemple, conduire à un parcours ou à un index selon les libertés déclarées et le profil de charge.
+HECTOR NEXT recherche une autre répartition du travail : l’auteur exprime l’intention, les faits et les règles métier ; l’agent propose un changement ; Hector en examine les conséquences et les obligations qu’il sait vérifier. Le but est de réduire les décisions techniques laissées à l’agent.
 
-L’ambition est de comparer plusieurs réalisations d’un même comportement selon le temps, la mémoire ou la simplicité. Le compilateur et ses contrats existent ; la recherche sur l’équivalence comportementale et le choix des réalisations continue.
+Le programme est un graphe typé et versionné, avec des identités qui survivent au renommage. Les propositions visent une révision précise. Le texte et le Studio sont des représentations de ce programme ; l’interface d’agent permet de lire, d’explorer et de proposer. L’admission reste un acte distinct du propriétaire.
 
-## Parcours
+## Du besoin à la réalisation
 
-1. Décrire les données, le comportement et ses contraintes.
-2. Déclarer les transformations admissibles.
-3. Examiner types, effets et contrats avec le compilateur natif.
-4. Intégrer et mesurer le noyau compilé dans son application.
+1. Exprimer les faits et les contraintes du domaine.
+2. Dériver les obligations et faire apparaître la question métier manquante.
+3. Examiner une proposition et son impact sur une base identifiée.
+4. Distinguer résultat établi, contre-exemple, refus et conclusion inconnue.
+5. Explorer une réalisation native et la mesurer dans son périmètre.
 
-## Décisions de conception
+## Les choix qui structurent la recherche
 
-### Le comportement avant la mécanique
+**Le contrat avant la réalisation.** Les règles métier ne choisissent pas implicitement un algorithme, une représentation mémoire ou un backend. Ces décisions appartiennent au travail de réalisation.
 
-Déclarer les valeurs, les résultats et les obligations. L’auteur précise aussi les libertés : représentation, fusion ou ordre indépendant.
+**Proposer n’est pas admettre.** CLI, serveur MCP et Studio partagent le modèle du programme, mais la lecture ou une proposition d’agent ne constitue pas une autorisation d’intégration.
 
-### Un langage pour humains et agents
+**Une garantie porte une portée.** Dérivation, vérification, recherche de contre-exemples et mesure produisent des résultats distincts. Un résultat inconnu garde cet état.
 
-Les types, effets et contrats rendent les propositions analysables. L’agent propose un changement ; le compilateur expose les contradictions qu’il sait détecter.
+La chaîne associe **Rust, Hector et LLVM**. Le noyau, les outils d’édition, la preuve et la réalisation native avancent par tranches ; le Studio expose le graphe et les propositions.
 
-### Un noyau réutilisable
+**État : recherche active.** Les parcours complets, la qualification multiplateforme et les gains de performance restent à établir.
 
-Les mêmes sources produisent des bibliothèques natives et WebAssembly. Les interfaces et les identités de compilation accompagnent leur intégration dans les applications.
-
-**État :** Recherche appliquée · compilateur natif et noyaux WebAssembly.
-
-[Studio & services ↗](https://floriansola.fr/projects/hector)
+[Présentation du projet ↗](https://floriansola.fr/projects/hector)

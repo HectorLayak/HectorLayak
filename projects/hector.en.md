@@ -1,36 +1,33 @@
 # HECTOR
 
-**Describe the need. Build the mechanics.**
+**The agent programs the problem. Hector explores its realization.**
 
 [All projects](../README.en.md#the-whole-workshop) · [Français](hector.md)
 
-HECTOR starts with an idea: authors should express expected behavior, constraints and permitted transformations. Types, units, effects and contracts make that intent explicit. The language also targets agents, whose proposals become inspectable by the compiler.
+![HECTOR NEXT: intent, proposal and examination; admission remains separate](../assets/atelier/hector-en.svg)
 
-The project combines a language, a native compiler written in Hector and libraries consumed natively or through WebAssembly. Collections, ledgers and numerical kernels provide concrete applications. A lookup rule can lead to a scan or an index according to declared freedoms and workload.
+HECTOR NEXT researches a different division of work: the author expresses intent, facts and domain rules; the agent proposes a change; Hector examines its consequences and the obligations it can check. The goal is to reduce the technical decisions left to agents.
 
-The ambition is to compare implementations of the same behavior by time, memory or simplicity. The compiler and its contracts exist; research into behavioral equivalence and implementation selection continues.
+The program is a typed, versioned graph with identities that survive renaming. Proposals target a precise revision. Text and Studio are representations of that program; the agent interface supports reading, exploration and proposals. Admission remains a separate act owned by the project owner.
 
-## Journeys
+## From intent to realization
 
-1. Describe data, behavior and constraints.
-2. Declare permitted transformations.
-3. Inspect types, effects and contracts with the native compiler.
-4. Integrate and measure the compiled kernel in its application.
+1. Express domain facts and constraints.
+2. Derive obligations and surface the missing domain question.
+3. Examine a proposal and its impact against an identified base.
+4. Distinguish an established result, counterexample, refusal and unknown conclusion.
+5. Explore a native realization and measure it within its scope.
 
-## Design choices
+## Choices shaping the research
 
-### Behavior before mechanics
+**The contract precedes its realization.** Domain rules do not implicitly choose an algorithm, memory representation or backend. Those decisions belong to realization work.
 
-Declare values, results and obligations, along with permitted changes to representation, fusion or independent ordering.
+**Proposing is separate from admitting.** The CLI, MCP server and Studio share the program model, but reading or an agent’s proposal does not authorize integration.
 
-### For humans and agents
+**A guarantee has a scope.** Derivation, verification, counterexample search and measurement produce distinct results. An unknown result retains that state.
 
-Types, effects and contracts make proposals inspectable. An agent proposes a change; the compiler reports the contradictions it can detect.
+The toolchain combines **Rust, Hector and LLVM**. The kernel, editing tools, proof and native realization advance in bounded stages; Studio exposes the graph and proposals.
 
-### Reusable kernels
+**Status: active research.** Complete journeys, multiplatform qualification and performance gains remain to be established.
 
-The same sources produce native and WebAssembly libraries. Interfaces and compiler identities accompany their integration into applications.
-
-**Stage :** Applied research · native compiler and WebAssembly kernels.
-
-[Studio & services ↗](https://floriansola.fr/en/projects/hector)
+[Project presentation ↗](https://floriansola.fr/en/projects/hector)
